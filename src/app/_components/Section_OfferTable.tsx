@@ -4,7 +4,7 @@ import { Table_Eligibility, Table_Offer_1 } from "./Table_Offer";
 
 export const Section_OfferTable = () => {
   return (
-    <section className="" id="apply-for-research-credits">
+    <section className="py-16" id="apply-for-research-credits">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-center pb-12">
