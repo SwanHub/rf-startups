@@ -73,7 +73,7 @@ const Buttons_Navigation = () => {
             : "text-gray-700 hover:bg-fuchsia-50 hover:text-violet-800"
         }`}
       >
-        Apply for Free Growth Plan
+        Apply for Startup Growth Plan
       </Link>
       <Link
         href="https://roboflow.com?ref=wallofresearch"

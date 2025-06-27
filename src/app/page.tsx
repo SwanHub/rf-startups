@@ -1,4 +1,5 @@
 import { Section_Hero } from "./_components/Section_Hero";
+import { Section_OfferTable } from "./_components/Section_OfferTable";
 
 export default function Lander() {
   return (
@@ -12,6 +13,7 @@ export default function Lander() {
       ></div>
       <div className="relative z-10">
         <Section_Hero />
+        <Section_OfferTable />
       </div>
     </div>
   );
