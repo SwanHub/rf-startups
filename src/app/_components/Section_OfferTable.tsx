@@ -1,6 +1,6 @@
 import { BadgeDollarSign } from "lucide-react";
 import { Button } from "@/components/shared/elements/Button";
-import { Table_Offer_1, Table_Offer_2 } from "./Table_Offer";
+import { Table_Eligibility, Table_Offer_1 } from "./Table_Offer";
 
 export const Section_OfferTable = () => {
   return (
@@ -26,8 +26,8 @@ export const Section_OfferTable = () => {
           </Button>
 
           <div className="p-8 md:p-12 flex flex-col gap-8">
-            <Table_Offer_1 />
-            <Table_Offer_2 />
+            <Table_Eligibility />
+            {/* <Table_Offer_2 /> */}
           </div>
         </div>
       </div>

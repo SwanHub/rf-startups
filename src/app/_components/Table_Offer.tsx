@@ -39,24 +39,18 @@ export const Table_Offer_1 = () => {
   );
 };
 
-export const Table_Offer_2 = () => {
+export const Table_Eligibility = () => {
   return (
     <div className="bg-white rounded-xl overflow-hidden border border-violet-100 max-w-screen-sm self-center w-full shadow-sm">
       <div className="py-3 px-6 font-semibold text-violet-700 bg-violet-50 border-b border-violet-100">
-        Both plans include
+        Eligibility
       </div>
       <div className="divide-y divide-violet-100">
         <div className="py-2 px-6 text-gray-900 text-sm md:text-base text-center">
-          15 team members
+          Less than $5M in funding
         </div>
         <div className="py-2 px-6 text-gray-900 text-sm md:text-base text-center">
-          50 credits per month
-        </div>
-        <div className="py-2 px-6 text-gray-900 text-sm md:text-base text-center">
-          Enhanced image augmentations
-        </div>
-        <div className="py-2 px-6 text-gray-900 text-sm md:text-base text-center">
-          Model weights download
+          New Roboflow customer
         </div>
       </div>
     </div>
