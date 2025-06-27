@@ -1,5 +1,6 @@
 import { Section_Hero } from "./_components/Section_Hero";
 import { Section_OfferTable } from "./_components/Section_OfferTable";
+import { Section_WhatYouGet } from "./_components/Section_WhatYouGet";
 
 export default function () {
   return (
@@ -17,6 +18,7 @@ export default function () {
       <div className="relative z-10">
         <Section_Hero />
         <Section_OfferTable />
+        <Section_WhatYouGet />
       </div>
     </div>
   );
