@@ -1,18 +1,18 @@
 import { BadgeDollarSign } from "lucide-react";
 import { Button } from "@/components/shared/elements/Button";
-import { Table_Eligibility, Table_Offer_1 } from "./Table_Offer";
+import { Table_Eligibility } from "./Table_Offer";
 
 export const Section_OfferTable = () => {
   return (
     <section className="py-16" id="apply-for-research-credits">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="text-center pb-12">
+          <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
               Free Year of Growth Plan
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              We're offering a full year free for qualified startups. The deets:
+              {"We're offering a full year free for qualified startups."}
             </p>
           </div>
           <Button

@@ -1,13 +1,3 @@
-// What You Get
-// 1800 platform credits loaded up front for storage, dataset indexing, AI-assisted labeling, cloud-GPU training, inference API calls, and deployment.
-// 50 private projects & 20 team seats with role-based access control.
-// Model weights export with a commercial Ultralytics license for 10 embedded devices.
-// Priority support from Roboflow engineers (chat & email) and an onboarding call with a Roboflow computer vision expert.
-// Full feature access to dataset management, annotation, model training, low-code Workflows, and multi-target deployment (cloud, edge, browser, on-prem).
-// Joint marketing post once you've launched to get your new product in front of our audience of 1M+ developers (optional).
-
-// See full Growth plan details on our pricing page.
-
 import {
   CheckCircle,
   Users,
@@ -61,11 +51,13 @@ export function Section_WhatYouGet() {
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            What You Get
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
+            What you get
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Everything you need to build and scale your computer vision startup
+          <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            {
+              "Everything you need to build and scale your computer vision startup."
+            }
           </p>
         </div>
 
