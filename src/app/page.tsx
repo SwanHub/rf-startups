@@ -3,7 +3,6 @@ import { Section_Hero } from "./_components/Section_Hero";
 import { Section_OfferTable } from "./_components/Section_OfferTable";
 import { Section_OpenSourceRoots } from "./_components/Section_OpenSourceRoots";
 import { Section_ProgramPartners } from "./_components/Section_ProgramPartners";
-import { Section_WhatYouGet } from "./_components/Section_WhatYouGet";
 import { Section_WhyRoboflow } from "./_components/Section_WhyRoboflow";
 
 export default function () {
@@ -23,7 +22,6 @@ export default function () {
         <Section_Hero />
         <Section_OfferTable />
         <Section_ProgramPartners />
-        <Section_WhatYouGet />
         <Section_WhyRoboflow />
         <Section_OpenSourceRoots />
         <Section_BuildWithTheBest />

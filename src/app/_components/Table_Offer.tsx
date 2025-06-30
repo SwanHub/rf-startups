@@ -3,16 +3,14 @@ import {
   Users,
   Download,
   Headphones,
-  Globe,
   Megaphone,
-  DollarSign,
-  Settings,
+  Layers,
 } from "lucide-react";
 
 export const Table_Offer = () => {
   const offers = [
     {
-      icon: Settings,
+      icon: Layers,
       text: "Full feature access to dataset management, annotation, model training, low-code Workflows, and multi-target deployment (cloud, edge, browser, on-prem).",
     },
     {
@@ -35,16 +33,12 @@ export const Table_Offer = () => {
       icon: Megaphone,
       text: "Joint marketing post once you've launched to get your new product in front of our audience of 1M+ developers (optional).",
     },
-    {
-      icon: DollarSign,
-      text: "$3,588 value",
-    },
   ];
 
   return (
     <div className="bg-white rounded-xl overflow-hidden border border-violet-100 max-w-screen-sm self-center w-full shadow-sm">
       <div className="py-3 px-6 font-semibold text-violet-700 bg-violet-50 border-b border-violet-100">
-        What you get
+        What you get: $3,588 value
       </div>
       <ol>
         {offers.map((offer, index) => {
