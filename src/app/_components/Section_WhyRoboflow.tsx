@@ -3,12 +3,12 @@ import { Text_ExternalLink } from "@/components/shared/Text_ExternalLink";
 
 export function Section_WhyRoboflow() {
   return (
-    <section className="py-20 px-4">
+    <section className="px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed font-bold">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
             Why Roboflow?
-          </p>
+          </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed font-bold">
             End-to-End Vision Pipeline
           </p>
