@@ -6,7 +6,7 @@ export function Section_OpenSourceRoots() {
     <section className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed font-bold">
+          <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed font-bold text-lg">
             Open Source Roots
           </p>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
@@ -16,7 +16,7 @@ export function Section_OpenSourceRoots() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
           {/* Supervision */}
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Eye className="w-5 h-5" />
@@ -25,7 +25,7 @@ export function Section_OpenSourceRoots() {
                 Supervision
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://github.com/roboflow/supervision">
                 Supervision
               </Text_ExternalLink>
@@ -37,7 +37,7 @@ export function Section_OpenSourceRoots() {
             </p>
           </div>
           {/* Inference */}
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Cpu className="w-5 h-5" />
@@ -46,7 +46,7 @@ export function Section_OpenSourceRoots() {
                 Inference
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://inference.roboflow.com/">
                 Inference
               </Text_ExternalLink>
@@ -56,7 +56,7 @@ export function Section_OpenSourceRoots() {
             </p>
           </div>
           {/* RF-DETR */}
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Target className="w-5 h-5" />
@@ -65,7 +65,7 @@ export function Section_OpenSourceRoots() {
                 RF-DETR
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://github.com/roboflow/rf-detr">
                 RF-DETR
               </Text_ExternalLink>
@@ -75,7 +75,7 @@ export function Section_OpenSourceRoots() {
             </p>
           </div>
           {/* Universe */}
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Globe className="w-5 h-5" />
@@ -84,7 +84,7 @@ export function Section_OpenSourceRoots() {
                 Universe
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://universe.roboflow.com/">
                 Universe
               </Text_ExternalLink>
@@ -94,7 +94,7 @@ export function Section_OpenSourceRoots() {
             </p>
           </div>
           {/* Notebooks */}
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <BookOpen className="w-5 h-5" />
@@ -103,7 +103,7 @@ export function Section_OpenSourceRoots() {
                 Notebooks
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://github.com/roboflow/notebooks">
                 Notebooks
               </Text_ExternalLink>
@@ -113,7 +113,7 @@ export function Section_OpenSourceRoots() {
             </p>
           </div>
           {/* Community */}
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Users className="w-5 h-5" />
@@ -122,7 +122,7 @@ export function Section_OpenSourceRoots() {
                 Community
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://roboflow.com/community">
                 Community
               </Text_ExternalLink>

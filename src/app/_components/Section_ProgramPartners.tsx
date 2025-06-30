@@ -65,7 +65,7 @@ export function Section_ProgramPartners() {
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
             {
-              "Our startup deals is available to companies who take part in the following accelerators and startup programs."
+              "Our startup deal is available to companies who take part in the following programs."
             }
           </p>
         </div>

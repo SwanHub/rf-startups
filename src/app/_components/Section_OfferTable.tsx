@@ -8,7 +8,7 @@ export const Section_OfferTable = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
-              Free Year of Growth Plan
+              Free year on our Growth Plan
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
               {"We're offering a full year free for qualified startups."}

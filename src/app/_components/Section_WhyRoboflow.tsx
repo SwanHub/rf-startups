@@ -3,13 +3,13 @@ import { Text_ExternalLink } from "@/components/shared/Text_ExternalLink";
 
 export function Section_WhyRoboflow() {
   return (
-    <section className="px-4">
+    <section className="pt-20 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
             Why Roboflow?
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed font-bold">
+          <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed font-bold text-lg">
             End-to-End Vision Pipeline
           </p>
           <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
@@ -19,7 +19,7 @@ export function Section_WhyRoboflow() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-5xl mx-auto">
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Database className="w-5 h-5" />
@@ -28,7 +28,7 @@ export function Section_WhyRoboflow() {
                 Dataset Management & Labeling
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://roboflow.com/annotate">
                 Dataset management &amp; labeling
               </Text_ExternalLink>
@@ -48,7 +48,7 @@ export function Section_WhyRoboflow() {
             </p>
           </div>
 
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <MousePointerClick className="w-5 h-5" />
@@ -57,7 +57,7 @@ export function Section_WhyRoboflow() {
                 One-click Model Training
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://roboflow.com/train">
                 One-click model training
               </Text_ExternalLink>
@@ -69,7 +69,7 @@ export function Section_WhyRoboflow() {
             </p>
           </div>
 
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Workflow className="w-5 h-5" />
@@ -78,7 +78,7 @@ export function Section_WhyRoboflow() {
                 Low-code Workflows
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://roboflow.com/workflows">
                 Low-code Workflows
               </Text_ExternalLink>
@@ -88,7 +88,7 @@ export function Section_WhyRoboflow() {
             </p>
           </div>
 
-          <div className="flex flex-col h-full p-8 rounded-2xl bg-violet-50">
+          <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
                 <Boxes className="w-5 h-5" />
@@ -97,7 +97,7 @@ export function Section_WhyRoboflow() {
                 Flexible Deployment
               </span>
             </div>
-            <p className="text-base text-gray-600 leading-relaxed">
+            <p className="text-lg text-gray-600 leading-relaxed">
               <Text_ExternalLink href="https://roboflow.com/deploy">
                 Flexible deployment
               </Text_ExternalLink>

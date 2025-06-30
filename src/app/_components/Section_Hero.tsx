@@ -1,11 +1,10 @@
 import { Badge } from "@/components/shared/elements/Badge";
 import { Button } from "@/components/shared/elements/Button";
 import { ArrowDown, HelpCircle, Users } from "lucide-react";
-import Link from "next/link";
 
 export const Section_Hero = () => {
   return (
-    <section className="mt-16 py-24">
+    <section className="mt-16 pt-24 pb-18">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <PageTitle />
@@ -37,7 +36,7 @@ export const Section_Hero = () => {
               <HelpCircle className="ml-2 h-4 w-4" />
             </Button>
           </div>
-          <Link
+          {/* <Link
             className="mt-12 flex justify-center items-center absolute left-0 right-0"
             target="_blank"
             href={"https://roboflow.com/lenny"}
@@ -47,7 +46,7 @@ export const Section_Hero = () => {
               alt="Startup Raccoon"
               className="max-w-24 h-auto grayscale opacity-25"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
@@ -71,7 +70,7 @@ const PageTitle = () => {
       </h1>
       <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
         {
-          "Roboflow is an end-to-end computer vision platform used by 1M+ developers, powering startups globally from seed to scale. We provide free credits to startups in our partner accelerator programs."
+          "Roboflow is an end-to-end computer vision platform used by 1M+ developers, powering startups globally from seed to scale."
         }
       </p>
     </span>
