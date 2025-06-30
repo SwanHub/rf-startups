@@ -5,24 +5,28 @@ export function Section_ProgramPartners() {
       logo: "/logos/partners/yc-logo.png",
     },
     {
+      name: "Sequoia Arc",
+      logo: "/logos/partners/sequoia.jpeg",
+    },
+    {
       name: "Vercel AI Accelerator",
       logo: "/logos/partners/vercel-logo.png",
     },
     {
+      name: "Antler",
+      logo: "/logos/partners/antler.jpeg",
+    },
+    {
+      name: "South Park Commons",
+      logo: "/logos/partners/southpark.jpeg",
+    },
+    {
       name: "Ag Startup Engine",
-      logo: "/logos/partners/ag_startup_engine-logo.png",
+      logo: "/logos/partners/ase.jpeg",
     },
     {
       name: "Alchemist Accelerator",
-      logo: "/logos/partners/alchemist_accelerator-logo.png",
-    },
-    {
-      name: "Sequoia Arc",
-      logo: "/logos/partners/sequoia_arc-logo.png",
-    },
-    {
-      name: "Antler",
-      logo: "/logos/partners/antler-logo.png",
+      logo: "/logos/partners/alchemist.jpeg",
     },
     {
       name: "Entrepreneurs First",
@@ -30,15 +34,11 @@ export function Section_ProgramPartners() {
     },
     {
       name: "Startupbootcamp",
-      logo: "/logos/partners/startupbootcamp-logo.png",
+      logo: "/logos/partners/startupbootcamp.jpeg",
     },
     {
       name: "Betaworks",
-      logo: "/logos/partners/betaworks-logo.png",
-    },
-    {
-      name: "South Park Commons",
-      logo: "/logos/partners/south_park_commons-logo.png",
+      logo: "/logos/partners/betaworks.jpeg",
     },
   ];
 
