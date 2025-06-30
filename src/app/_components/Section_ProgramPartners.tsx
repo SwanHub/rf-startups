@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
+import { Table_Eligibility } from "./Table_Offer";
 
 export function Section_ProgramPartners() {
   const partners = [
@@ -56,7 +57,7 @@ export function Section_ProgramPartners() {
   ];
 
   return (
-    <section id="partners" className="py-20 px-4">
+    <section id="partners" className="px-4">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
@@ -69,16 +70,21 @@ export function Section_ProgramPartners() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 max-w-5xl mx-auto">
+        <div
+          className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5
+            gap-6 max-w-5xl mx-auto"
+        >
           {partners.map((partner, index) => (
             <ListItem_ProgramPartner key={index} partner={partner} />
           ))}
         </div>
-
-        <div className="text-center mt-12">
+        <div className="text-center my-16">
           <p className="text-gray-500 text-sm">
             Your program not yet on the list? Contact growth@roboflow.com.
           </p>
+        </div>
+        <div className="flex justify-center text-center">
+          <Table_Eligibility />
         </div>
       </div>
     </section>

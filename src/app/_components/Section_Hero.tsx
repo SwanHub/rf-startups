@@ -13,7 +13,7 @@ export const Section_Hero = () => {
             <Button
               size="lg"
               className="bg-violet-600 hover:bg-violet-700 text-sm"
-              href="/#featured-roboflow-research"
+              href="/#offer"
             >
               Startup Discount
               <ArrowDown className="ml-2 h-4 w-4" />
@@ -71,7 +71,7 @@ const PageTitle = () => {
       </h1>
       <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
         {
-          "Roboflow is an end-to-end computer vision platform used by 1M+ developers, powering startups globally from seed to scale."
+          "Roboflow is an end-to-end computer vision platform used by 1M+ developers, powering startups globally from seed to scale. We provide free credits to startups in our partner accelerator programs."
         }
       </p>
     </span>

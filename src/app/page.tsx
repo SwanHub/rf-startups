@@ -21,8 +21,8 @@ export default function () {
       ></div>
       <div className="relative z-10">
         <Section_Hero />
-        <Section_ProgramPartners />
         <Section_OfferTable />
+        <Section_ProgramPartners />
         <Section_WhatYouGet />
         <Section_WhyRoboflow />
         <Section_OpenSourceRoots />
