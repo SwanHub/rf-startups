@@ -42,7 +42,7 @@ export const Table_Offer = () => {
   ];
 
   return (
-    <div className="bg-white rounded-xl overflow-hidden border border-violet-100 max-w-screen-sm self-center w-full shadow-sm">
+    <div className="bg-white rounded-xl overflow-hidden border border-violet-100 max-w-screen-sm self-center w-full">
       <div className="py-3 px-6 font-semibold text-violet-700 bg-violet-50 border-b border-violet-100">
         What you get: $3,588 value
       </div>
@@ -75,7 +75,7 @@ export const Table_Offer = () => {
 
 export const Table_Eligibility = () => {
   return (
-    <div className="bg-white rounded-xl overflow-hidden border border-violet-100 max-w-screen-sm self-center w-full shadow-sm">
+    <div className="bg-white rounded-xl overflow-hidden border border-violet-100 max-w-screen-sm self-center w-full">
       <div className="py-3 px-6 font-semibold text-violet-700 bg-violet-50 border-b border-violet-100">
         Eligibility
       </div>

@@ -1,5 +1,6 @@
 import { Section_BuildWithTheBest } from "./_components/Section_BuildWithTheBest";
 import { Section_Hero } from "./_components/Section_Hero";
+import { Section_Love } from "./_components/Section_Love";
 import { Section_OfferTable } from "./_components/Section_OfferTable";
 import { Section_OpenSourceRoots } from "./_components/Section_OpenSourceRoots";
 import { Section_ProgramPartners } from "./_components/Section_ProgramPartners";
@@ -25,6 +26,7 @@ export default function () {
         <Section_WhyRoboflow />
         <Section_OpenSourceRoots />
         <Section_BuildWithTheBest />
+        <Section_Love />
       </div>
     </div>
   );
