@@ -6,7 +6,7 @@ import { Section_OpenSourceRoots } from "./_components/Section_OpenSourceRoots";
 import { Section_ProgramPartners } from "./_components/Section_ProgramPartners";
 import { Section_WhyRoboflow } from "./_components/Section_WhyRoboflow";
 
-export default function () {
+export default function Page() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-50 via-white to-blue-50 relative">
       <div
