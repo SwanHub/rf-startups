@@ -11,27 +11,33 @@ export const Table_Offer = () => {
   const offers = [
     {
       icon: Layers,
-      text: "Full feature access to dataset management, annotation, model training, low-code Workflows, and multi-target deployment (cloud, edge, browser, on-prem).",
+      title: "Full feature access",
+      text: "To dataset management, annotation, model training, low-code Workflows, and multi-target deployment (cloud, edge, browser, on-prem).",
     },
     {
       icon: Zap,
-      text: "1800 platform credits loaded up front for storage, dataset indexing, AI-assisted labeling, cloud-GPU training, inference API calls, and deployment.",
+      title: "1800 platform credits",
+      text: "Loaded up front for storage, dataset indexing, AI-assisted labeling, cloud-GPU training, inference API calls, and deployment.",
     },
     {
       icon: Users,
-      text: "50 private projects & 20 team seats with role-based access control.",
+      title: "50 private projects & 20 team seats",
+      text: "With role-based access control.",
     },
     {
       icon: Download,
-      text: "Model weights export with a commercial Ultralytics license for 10 embedded devices.",
+      title: "Model weights export",
+      text: "With a commercial Ultralytics license for 10 embedded devices.",
     },
     {
       icon: Headphones,
-      text: "Priority support from Roboflow engineers (chat & email) and an onboarding call with a Roboflow computer vision expert.",
+      title: "Priority support",
+      text: "From Roboflow engineers (chat & email) and an onboarding call with a Roboflow computer vision expert.",
     },
     {
       icon: Megaphone,
-      text: "Joint marketing post once you've launched to get your new product in front of our audience of 1M+ developers (optional).",
+      title: "Joint marketing post",
+      text: "Once you've launched to get your new product in front of our audience of 1M+ developers (optional).",
     },
   ];
 
@@ -46,13 +52,18 @@ export const Table_Offer = () => {
           return (
             <li
               key={index}
-              className="flex items-center gap-4 p-4 border-b border-violet-100 last:border-b-0"
+              className="flex items-start gap-4 p-4 border-b border-violet-100 last:border-b-0 text-start"
             >
-              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-violet-100 text-violet-700 flex items-center justify-center">
+              <span className="flex-shrink-0 w-8 h-8 rounded-full bg-violet-100 text-violet-700 flex items-center justify-center mt-1">
                 <IconComponent className="w-4 h-4" />
               </span>
-              <span className="text-gray-600 leading-relaxed text-sm text-left">
-                {offer.text}
+              <span className="flex flex-col">
+                <span className="font-medium text-gray-800 mb-1 text-sm">
+                  {offer.title}
+                </span>
+                <span className="text-gray-600 leading-relaxed text-sm">
+                  {offer.text}
+                </span>
               </span>
             </li>
           );
