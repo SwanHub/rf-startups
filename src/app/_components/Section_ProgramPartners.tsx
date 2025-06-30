@@ -1,50 +1,44 @@
-import { Building2 } from "lucide-react";
-
 export function Section_ProgramPartners() {
   const partners = [
     {
       name: "Y Combinator",
-      logo: "/logos/yc-logo.png", // Placeholder path
+      logo: "/logos/partners/yc-logo.png",
     },
     {
       name: "Vercel AI Accelerator",
-      logo: "/logos/vercel-ai-logo.png",
-    },
-    {
-      name: "F.inc",
-      logo: "/logos/finc-logo.png",
+      logo: "/logos/partners/vercel-logo.png",
     },
     {
       name: "Ag Startup Engine",
-      logo: "/logos/ag-startup-logo.png",
+      logo: "/logos/partners/ag_startup_engine-logo.png",
     },
     {
       name: "Alchemist Accelerator",
-      logo: "/logos/alchemist-logo.png",
+      logo: "/logos/partners/alchemist_accelerator-logo.png",
     },
     {
       name: "Sequoia Arc",
-      logo: "/logos/sequoia-arc-logo.png",
+      logo: "/logos/partners/sequoia_arc-logo.png",
     },
     {
       name: "Antler",
-      logo: "/logos/antler-logo.png",
+      logo: "/logos/partners/antler-logo.png",
     },
     {
       name: "Entrepreneurs First",
-      logo: "/logos/ef-logo.png",
+      logo: "/logos/partners/ef-logo.png",
     },
     {
       name: "Startupbootcamp",
-      logo: "/logos/startupbootcamp-logo.png",
+      logo: "/logos/partners/startupbootcamp-logo.png",
     },
     {
       name: "Betaworks",
-      logo: "/logos/betaworks-logo.png",
+      logo: "/logos/partners/betaworks-logo.png",
     },
     {
-      name: "Southpark Commons",
-      logo: "/logos/southpark-commons-logo.png",
+      name: "South Park Commons",
+      logo: "/logos/partners/south_park_commons-logo.png",
     },
   ];
 
@@ -69,17 +63,11 @@ export function Section_ProgramPartners() {
               className="flex flex-col items-center text-center group"
             >
               <div className="w-20 h-20 bg-gray-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-gray-200 transition-colors duration-300">
-                {/* Placeholder for logo - replace with actual logo images */}
-                <div className="w-12 h-12 bg-gradient-to-br from-violet-400 to-violet-600 rounded-lg flex items-center justify-center">
-                  <Building2 className="w-6 h-6 text-white" />
-                </div>
-                {/* Uncomment and use when you have actual logos:
-                <img 
-                  src={partner.logo} 
+                <img
+                  src={partner.logo}
                   alt={`${partner.name} logo`}
                   className="w-12 h-12 object-contain"
                 />
-                */}
               </div>
               <h3 className="text-sm font-medium text-gray-900 leading-tight">
                 {partner.name}
