@@ -13,17 +13,17 @@ export default function () {
         className="absolute inset-0 opacity-30"
         style={{
           backgroundImage: `
-            linear-gradient(rgba(71, 85, 105, 0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(71, 85, 105, 0.1) 1px, transparent 1px)
-          `,
+            linear-gradient(rgba(139, 92, 246, 0.1) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(139, 92, 246, 0.1) 1px, transparent 1px)
+            `,
           backgroundSize: "180px 180px",
         }}
       ></div>
       <div className="relative z-10">
         <Section_Hero />
+        <Section_ProgramPartners />
         <Section_OfferTable />
         <Section_WhatYouGet />
-        <Section_ProgramPartners />
         <Section_WhyRoboflow />
         <Section_OpenSourceRoots />
         <Section_BuildWithTheBest />

@@ -21,7 +21,7 @@ export const Section_Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              href="/partners"
+              href="/#partners"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
               Program Partners
