@@ -20,7 +20,7 @@ export const Section_Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              href="/#partners"
+              href="mailto:startups@roboflow.com"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
               Contact our startups team
@@ -59,7 +59,7 @@ const PageTitle = () => {
       </h1>
       <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto text-xl">
         {
-          "Join thousands of startups using computer vision with Roboflow. Comprehensive dataset management, annotation, model training and deployment in a simple dev-friendly interface."
+          "Join thousands of startups using computer vision with Roboflow. Comprehensive dataset management, annotation, model training and deployment in a simple interface that just works."
         }
       </p>
     </span>
