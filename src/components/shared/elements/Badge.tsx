@@ -7,11 +7,11 @@ export interface BadgeProps extends React.HTMLAttributes<HTMLDivElement> {
 const Badge = React.forwardRef<HTMLDivElement, BadgeProps>(
   ({ className, variant = "default", ...props }, ref) => {
     const baseClasses =
-      "inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2";
+      "inline-flex items-center tracking-[0.4px] font-medium rounded-sm px-2 py-1.5 text-[10px] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2";
 
     const variantClasses = {
       default: "bg-violet-600 text-white hover:bg-violet-700",
-      secondary: "bg-gray-100 text-gray-900 hover:bg-gray-200",
+      secondary: "bg-violet-100 text-violet-800",
       outline: "border border-gray-300 text-gray-700",
     };
 
@@ -19,7 +19,7 @@ const Badge = React.forwardRef<HTMLDivElement, BadgeProps>(
       .filter(Boolean)
       .join(" ");
 
-    return <div ref={ref} className={combinedClasses} {...props} />;
+    return <div ref={ref} className={`${combinedClasses}`} {...props} />;
   }
 );
 

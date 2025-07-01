@@ -124,7 +124,7 @@ const Buttons_Navigation_Mobile = ({
           </span>
         </Link>
         <Link
-          href="https://roboflow.com?ref=wallofresearch"
+          href="https://roboflow.com?ref=startups"
           className="w-full py-5 px-6 text-left text-gray-600 bg-white border-b border-gray-200"
         >
           <span className="text-lg font-semibold">Back to main site</span>
@@ -134,17 +134,17 @@ const Buttons_Navigation_Mobile = ({
       <div className="p-6 gap-2 grid grid-cols-2">
         <Button_Generic
           label="Sign in"
-          href="https://app.roboflow.com?ref=wallofresearch"
+          href="https://app.roboflow.com?ref=startups"
           inverted
         />
         <Button_Generic
           label="Book a demo"
-          href="https://roboflow.com/sales?ref=wallofresearch"
+          href="https://roboflow.com/sales?ref=startups"
           inverted
         />
         <Button_Generic
           label="Get Started"
-          href="https://app.roboflow.com/login?ref=wallofresearch"
+          href="https://app.roboflow.com/login?ref=startups"
         />
       </div>
     </div>
@@ -155,21 +155,21 @@ const Buttons_Auth = () => {
   return (
     <div className="hidden sm:flex items-center ml-4">
       <Link
-        href="https://app.roboflow.com?ref=wallofresearch"
+        href="https://app.roboflow.com?ref=startups"
         className="text-gray-700 font-medium text-sm 
                 px-3 py-1.75 rounded-md border border-transparent hover:text-violet-800 mr-1"
       >
         Sign in
       </Link>
       <Link
-        href="https://roboflow.com/sales?ref=wallofresearch"
+        href="https://roboflow.com/sales?ref=startups"
         className="text-violet-800 font-semibold text-sm 
                 px-3 py-1.75 rounded-md border border-violet-800 mr-2"
       >
         Book a demo
       </Link>
       <Link
-        href="https://app.roboflow.com/login?ref=wallofresearch"
+        href="https://app.roboflow.com/login?ref=startups"
         className="text-white font-semibold text-sm bg-violet-700
                 px-3 py-1.75 rounded-md border border-violet-700"
       >

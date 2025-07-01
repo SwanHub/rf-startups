@@ -1,7 +1,6 @@
 import { Badge } from "@/components/shared/elements/Badge";
 import { Button } from "@/components/shared/elements/Button";
-import { ArrowDown, Rocket } from "lucide-react";
-import Link from "next/link";
+import { HelpCircle, Mail, Rocket } from "lucide-react";
 
 export const Section_Hero = () => {
   return (
@@ -13,10 +12,10 @@ export const Section_Hero = () => {
             <Button
               size="lg"
               className="bg-violet-600 hover:bg-violet-700 text-sm"
-              href="/#offer"
+              href="https://app.roboflow.com/login"
             >
-              Growth Plan For Startups
-              <ArrowDown className="ml-2 h-4 w-4" />
+              Start building with Roboflow
+              <Rocket className="ml-2 h-4 w-4" />
             </Button>
             <Button
               variant="outline"
@@ -24,21 +23,19 @@ export const Section_Hero = () => {
               href="/#partners"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
-              Our Partners
-              <Rocket className="ml-2 h-4 w-4" />
+              Contact our startups team
+              <Mail className="ml-2 h-4 w-4" />
+            </Button>
+            <Button
+              variant="secondary"
+              size="lg"
+              href="/#faq"
+              className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
+            >
+              FAQ
+              <HelpCircle className="ml-2 h-4 w-4" />
             </Button>
           </div>
-          <Link
-            className="mt-12 flex justify-center items-center absolute left-0 right-0"
-            target="_blank"
-            href={"https://roboflow.com/lenny"}
-          >
-            <img
-              src="/startup-raccoon2.png"
-              alt="Startup Raccoon"
-              className="max-w-28 h-auto grayscale opacity-25"
-            />
-          </Link>
         </div>
       </div>
     </section>
@@ -50,19 +47,19 @@ const PageTitle = () => {
     <span>
       <Badge
         variant="secondary"
-        className="mb-6 bg-violet-50 text-violet-700 border-violet-200"
+        className="mb-6 bg-violet-50 text-violet-700 border-violet-200 uppercase"
       >
-        Discounted Pricing for Early Stage Startups
+        Free credits
       </Badge>
       <h1
         className={`text-4xl
-          md:text-5xl font-bold text-gray-900 mb-6 leading-tight`}
+          md:text-5xl font-semibold text-gray-900 mb-6 leading-tight`}
       >
         Roboflow <span className="text-violet-600">for Startups</span>
       </h1>
-      <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto">
+      <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto text-xl">
         {
-          "Roboflow is an end-to-end computer vision platform used by 1M+ developers, powering startups globally from seed to scale."
+          "Join thousands of startups using computer vision with Roboflow. Comprehensive dataset management, annotation, model training and deployment in a simple dev-friendly interface."
         }
       </p>
     </span>
