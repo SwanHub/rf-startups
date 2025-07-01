@@ -1,10 +1,4 @@
-import {
-  BookOpen,
-  Star,
-  Award,
-  CheckCircle,
-  GraduationCap,
-} from "lucide-react";
+import { Star, Award, CheckCircle, GraduationCap } from "lucide-react";
 import { Text_ExternalLink } from "@/components/shared/Text_ExternalLink";
 
 export function Section_BuildWithTheBest() {

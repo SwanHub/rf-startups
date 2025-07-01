@@ -1,13 +1,5 @@
 import { Text_ExternalLink } from "@/components/shared/Text_ExternalLink";
-import {
-  Eye,
-  Cpu,
-  Target,
-  BookOpen,
-  Users,
-  Globe,
-  MessageCircle,
-} from "lucide-react";
+import { Eye, Cpu, Target, BookOpen, Globe, MessageCircle } from "lucide-react";
 
 export function Section_OpenSourceRoots() {
   return (

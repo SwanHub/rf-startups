@@ -1,6 +1,6 @@
 import { Badge } from "@/components/shared/elements/Badge";
 import { Button } from "@/components/shared/elements/Button";
-import { ArrowDown, HelpCircle, Rocket, Users } from "lucide-react";
+import { ArrowDown, Rocket } from "lucide-react";
 import Link from "next/link";
 
 export const Section_Hero = () => {
