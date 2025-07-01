@@ -66,21 +66,21 @@ const Buttons_Navigation = () => {
   return (
     <div className="hidden lg:flex items-center gap-1 px-2">
       <Link
-        href="/discount"
+        href="#partners"
         className={`text-sm transition-all px-3 py-1.75 rounded-lg ${
-          pathname === "/discount"
+          pathname === "#partners"
             ? "text-violet-800 bg-fuchsia-50 "
             : "text-gray-700 hover:bg-fuchsia-50 hover:text-violet-800"
         }`}
       >
-        Apply for Startup Growth Plan
+        Accelerator Program Partners
       </Link>
       <Link
-        href="https://roboflow.com?ref=wallofresearch"
+        href="https://roboflow.com?ref=startups"
         className="text-gray-700 text-sm hover:bg-fuchsia-50 transition-all
       px-3 py-1.75 rounded-lg border border-transparent hover:text-violet-800"
       >
-        Back to roboflow.com
+        Back to main site
       </Link>
     </div>
   );

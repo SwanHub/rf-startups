@@ -3,11 +3,14 @@ import Link from "next/link";
 
 export const Section_OfferTable = () => {
   return (
-    <section className="" id="offer">
+    <section className="pt-24" id="offer">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">
+            <h2
+              className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600
+            via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2"
+            >
               Free year on our Growth Plan
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">

@@ -1,4 +1,10 @@
-import { BookOpen, Star, Award, CheckCircle } from "lucide-react";
+import {
+  BookOpen,
+  Star,
+  Award,
+  CheckCircle,
+  GraduationCap,
+} from "lucide-react";
 import { Text_ExternalLink } from "@/components/shared/Text_ExternalLink";
 
 export function Section_BuildWithTheBest() {
@@ -35,7 +41,7 @@ export function Section_BuildWithTheBest() {
           <div className="flex flex-col h-full p-12 rounded-2xl bg-violet-50">
             <div className="flex items-center mb-6">
               <span className="flex-shrink-0 w-10 h-10 rounded-full bg-violet-100 text-violet-600 flex items-center justify-center mr-4">
-                <BookOpen className="w-5 h-5" />
+                <GraduationCap className="w-5 h-5" />
               </span>
               <span className="uppercase tracking-widest text-xs text-violet-600 font-medium">
                 Cited by Academics

@@ -1,6 +1,7 @@
 import { Badge } from "@/components/shared/elements/Badge";
 import { Button } from "@/components/shared/elements/Button";
-import { ArrowDown, HelpCircle, Users } from "lucide-react";
+import { ArrowDown, HelpCircle, Rocket, Users } from "lucide-react";
+import Link from "next/link";
 
 export const Section_Hero = () => {
   return (
@@ -14,7 +15,7 @@ export const Section_Hero = () => {
               className="bg-violet-600 hover:bg-violet-700 text-sm"
               href="/#offer"
             >
-              Startup Discount
+              Growth Plan For Startups
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -23,30 +24,21 @@ export const Section_Hero = () => {
               href="/#partners"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
-              Program Partners
-              <Users className="ml-2 h-4 w-4" />
-            </Button>
-            <Button
-              variant="secondary"
-              size="lg"
-              href="/credits"
-              className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
-            >
-              FAQ
-              <HelpCircle className="ml-2 h-4 w-4" />
+              Our Partners
+              <Rocket className="ml-2 h-4 w-4" />
             </Button>
           </div>
-          {/* <Link
+          <Link
             className="mt-12 flex justify-center items-center absolute left-0 right-0"
             target="_blank"
             href={"https://roboflow.com/lenny"}
           >
             <img
-              src="/startup-raccoon.png"
+              src="/startup-raccoon2.png"
               alt="Startup Raccoon"
-              className="max-w-24 h-auto grayscale opacity-25"
+              className="max-w-28 h-auto grayscale opacity-25"
             />
-          </Link> */}
+          </Link>
         </div>
       </div>
     </section>

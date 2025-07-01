@@ -57,7 +57,7 @@ export function Section_ProgramPartners() {
   ];
 
   return (
-    <section id="partners" className="px-4">
+    <section id="partners" className="px-4 pt-24">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-violet-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent py-2">

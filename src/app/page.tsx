@@ -16,7 +16,7 @@ export default function Page() {
             linear-gradient(rgba(139, 92, 246, 0.1) 1px, transparent 1px),
             linear-gradient(90deg, rgba(139, 92, 246, 0.1) 1px, transparent 1px)
             `,
-          backgroundSize: "180px 180px",
+          backgroundSize: "40px 40px",
         }}
       ></div>
       <div className="relative z-10">
