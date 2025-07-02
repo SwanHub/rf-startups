@@ -151,7 +151,7 @@ export function Section_CustomerStories() {
           <CustomerTestimonialSecondary
             quote={
               <span>
-                &quot;Roboflow's data management tools{" "}
+                &quot;Roboflow&apos;s data management tools{" "}
                 <span className="font-semibold text-violet-700">
                   far surpassed any of the other tools
                 </span>{" "}
