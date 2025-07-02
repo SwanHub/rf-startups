@@ -86,8 +86,8 @@ function CustomerTestimonialSecondary({
 
 export function Section_CustomerStories() {
   return (
-    <section className="w-full pb-24 px-4">
-      <div className="max-w-6xl mx-auto border border-violet-100">
+    <section className="w-full px-4">
+      <div className="max-w-screen-lg mx-auto border border-violet-100">
         <CustomerTestimonialMain />
         <div className="grid grid-cols-1 md:grid-cols-2">
           <CustomerTestimonialSecondary

@@ -1,6 +1,6 @@
 import { Badge } from "@/components/shared/elements/Badge";
 import { Button } from "@/components/shared/elements/Button";
-import { HelpCircle, Mail, Rocket } from "lucide-react";
+import { BadgeDollarSign, HelpCircle, Mail, Rocket } from "lucide-react";
 
 export const Section_Hero = () => {
   return (
@@ -20,11 +20,11 @@ export const Section_Hero = () => {
             <Button
               variant="outline"
               size="lg"
-              href="mailto:startups@roboflow.com"
+              href="#offer"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
-              Contact our Startups Team
-              <Mail className="ml-2 h-4 w-4" />
+              Redeem: Free Year on Growth Plan
+              <BadgeDollarSign className="ml-2 h-4 w-4" />
             </Button>
             <Button
               variant="secondary"
