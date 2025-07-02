@@ -16,7 +16,7 @@ export default function Page() {
         <Section_Hero />
         <Section_CustomerStories />
         <Section_OfferTable />
-        {/* <Section_ProgramPartners /> */}
+        <Section_ProgramPartners />
         {/* <Section_WhyRoboflow /> */}
         {/* <Section_OpenSourceRoots /> */}
         {/* <Section_BuildWithTheBest /> */}
