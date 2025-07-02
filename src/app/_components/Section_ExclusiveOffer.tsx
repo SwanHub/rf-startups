@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Zap,
   Users,
@@ -6,6 +8,7 @@ import {
   Megaphone,
   Layers,
 } from "lucide-react";
+import { LottieAnimation } from "./LottieAnimation";
 
 export function Section_ExclusiveOffer() {
   const offers = [
@@ -46,14 +49,22 @@ export function Section_ExclusiveOffer() {
       id="offer"
       className="w-full py-16 px-2 md:px-0 flex flex-col justify-center items-center bg-transparent"
     >
-      <div className="flex flex-col items-start justify-center px-8 py-12">
+      <div className="flex flex-col items-center justify-center px-8 py-12">
+        <div
+          className="flex items-center justify-center mb-8 rounded-2xl"
+          style={{
+            background: "radial-gradient(circle, white 60%, transparent 100%)",
+          }}
+        >
+          <LottieAnimation />
+        </div>
         <h2 className="text-3xl md:text-4xl font-semibold text-violet-700 text-left leading-tight mb-8">
           <span className="text-gray-500">Exclusive Offer:</span> 1 Free Year on
           Growth Plan
         </h2>
         <p className="text-gray-600 mb-8 text-center leading-relaxed max-w-3xl mx-auto text-xl">
           {
-            "We work with a select number of accelerators programs, offering free access to our Growth Plan for 12 months. Our offer includes:"
+            "We're offering access to our Growth Plan for free for 12 months to eligible startups in our partner accelerator, VC, and startup programs. Our offer includes:"
           }
         </p>
       </div>
@@ -80,6 +91,11 @@ export function Section_ExclusiveOffer() {
           );
         })}
       </div>
+      <p className="text-gray-600 py-24 text-center leading-relaxed max-w-3xl mx-auto text-xl border-b border-gray-200">
+        {
+          "To redeem the offer, follow the instructions shared by your program manager or outlined in your program's dealbook."
+        }
+      </p>
     </section>
   );
 }

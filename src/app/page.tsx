@@ -14,7 +14,7 @@ export default function Page() {
         <Section_ExclusiveOffer />
         <Section_FAQ />
         <Section_BecomeAPartner />
-        <Section_Love />
+        {/* <Section_Love /> */}
       </div>
     </div>
   );
