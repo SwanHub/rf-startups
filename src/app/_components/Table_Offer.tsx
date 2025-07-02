@@ -79,7 +79,7 @@ export const Table_Eligibility = () => {
     <div className="max-w-screen-lg w-full bg-violet-50 py-12 px-4 flex items-center gap-4 justify-center border-b-2 border-violet-100">
       <CircleCheck className="w-6 h-6 text-emerald-400 flex-shrink-0" />
       <span className="text-sm md:text-base text-gray-700 font-medium text-center">
-        Eligibility: Less than $5M in funding and must be a new Roboflow
+        Eligibility: Less than $5 million in funding and must be a new Roboflow
         customer.
       </span>
     </div>

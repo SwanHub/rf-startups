@@ -7,7 +7,7 @@ const faqs = [
   {
     question: "Who is eligible for Roboflow for Startups?",
     answer:
-      "Roboflow for Startups is available to early-stage companies that are part of one of our partner accelerator programs. Eligible startups must have raised less than $5M in funding and be new Roboflow customers.",
+      "Roboflow for Startups is available to early-stage companies that are part of one of our partner accelerator programs. Eligible startups must have raised less than $5 million in funding and be new Roboflow customers.",
   },
   {
     question: "Who are your partner accelerators?",
