@@ -1,29 +1,34 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-function CustomerTestimonialMain() {
+function CustomerTestimonialMain({
+  quote,
+  name,
+  title,
+  logo,
+  company,
+  link,
+}: {
+  quote: React.ReactNode;
+  name: string;
+  title: string;
+  logo: string;
+  company: string;
+  link: string;
+}) {
   return (
     <div className="py-16 px-6 md:px-24 flex flex-col items-center text-center border-b border-violet-100 hover:bg-violet-50">
       <blockquote className="text-2xl md:text-3xl text-gray-700 font-light leading-snug mb-10">
-        <span>
-          &quot;Roboflow allowed our team to drive model development... and{" "}
-          <span className="font-semibold text-violet-700">
-            get computer vision into production faster.&quot;
-          </span>
-        </span>
+        {quote}
       </blockquote>
       <div className="flex flex-col items-center mb-6">
-        <img
-          src="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/67ef10f95672343278a96d06_logo-wellth.svg"
-          alt="Wellth logo"
-          className="mb-6 w-40"
-        />
+        <img src={logo} alt={`${company} logo`} className="mb-6 w-40" />
         <span className="text-gray-500 text-sm">
-          Alec Zopf, Co-founder and Chief AI &amp; Automation Officer
+          {name}, {title}
         </span>
       </div>
       <Link
-        href="https://roboflow.com/case-studies/wellth"
+        href={link}
         target="_blank"
         className="inline-block mt-2 px-6 py-2 rounded-full border border-violet-200 text-violet-700 bg-white hover:bg-violet-50 font-medium transition-colors"
       >
@@ -87,8 +92,23 @@ function CustomerTestimonialSecondary({
 export function Section_CustomerStories() {
   return (
     <section className="w-full px-4">
-      <div className="max-w-screen-lg mx-auto border border-violet-100">
-        <CustomerTestimonialMain />
+      <div className="max-w-6xl mx-auto border border-violet-100">
+        <CustomerTestimonialMain
+          quote={
+            <span>
+              &quot;Do we need a new model to evaluate this kind of food? We
+              spin up the platform, train overnight, and{" "}
+              <span className="font-semibold text-violet-700">
+                the next morning it works.&quot;
+              </span>
+            </span>
+          }
+          name="Rian McDonnell"
+          title="Founder and CEO of FloVision Solutions"
+          logo="https://flovisionsolutions-20253.kxcdn.com/wp-content/uploads/2022/01/FloVision-Solutions-Logo-Full-Color-Large-2048x545.png"
+          company="FloVision Solutions"
+          link="https://roboflow.com/case-studies/flovision"
+        />
         <div className="grid grid-cols-1 md:grid-cols-2">
           <CustomerTestimonialSecondary
             quote={
@@ -113,20 +133,37 @@ export function Section_CustomerStories() {
           <CustomerTestimonialSecondary
             quote={
               <span>
-                &quot;...we've increased the cadence in rolling out new features
-                and tools for our clients. Do we need a new model to evaluate
-                this kind of food?{" "}
+                &quot;Roboflow allowed our team to drive model development...
+                and{" "}
                 <span className="font-semibold text-violet-700">
-                  We spin up the platform, train overnight, and the next morning
-                  it works.&quot;
+                  get computer vision into production faster.&quot;
                 </span>
               </span>
             }
-            name="Rian McDonnell"
-            title="founder and CEO of FloVision"
-            logo="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/6807e703a9eb098121255372_logo-floVision-solutions.png"
-            company="FloVision Solutions"
-            link="https://roboflow.com/case-studies/flovision"
+            name="Alec Zopf"
+            title="Co-founder and Chief AI & Automation Officer"
+            logo="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/67ef10f95672343278a96d06_logo-wellth.svg"
+            company="Wellth"
+            link="https://roboflow.com/case-studies/wellth"
+            borderBottom
+          />
+          {/* Wellth (SnapCalorie) testimonial (secondary, right, now third) */}
+          <CustomerTestimonialSecondary
+            quote={
+              <span>
+                &quot;Roboflow's data management tools{" "}
+                <span className="font-semibold text-violet-700">
+                  far surpassed any of the other tools
+                </span>{" "}
+                we evaluated in the computer vision space&quot;
+              </span>
+            }
+            name="Wade Norris"
+            title="Co-founder & CEO at SnapCalorie (YC S21)"
+            logo="https://www.snapcalorie.com/images/sc_banner.png"
+            company="SnapCalorie"
+            link="https://roboflow.com/case-study/snapcalorie"
+            borderRight
             borderBottom
           />
           <CustomerTestimonialSecondary
@@ -145,7 +182,6 @@ export function Section_CustomerStories() {
             logo="https://cdn.reducto.ai/landing-page/logos/reducto-logo.svg"
             company="Reducto"
             link="https://reducto.ai/"
-            borderRight
             borderBottom
           />
           <CustomerTestimonialSecondary
@@ -163,23 +199,6 @@ export function Section_CustomerStories() {
             logo="https://media.licdn.com/dms/image/v2/C5603AQEZr4wwz3NT_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1601742101045?e=1756944000&v=beta&t=OOlxmJeq9PAqdHndmuQ6xITf-yOpasfoTbiMwEyInS8"
             company=""
             link="https://www.linkedin.com/in/drewjgray/"
-            borderBottom
-          />
-          <CustomerTestimonialSecondary
-            quote={
-              <span>
-                &quot;Roboflow’s data management tools{" "}
-                <span className="font-semibold text-violet-700">
-                  far surpassed any of the other tools
-                </span>{" "}
-                we evaluated in the computer vision space&quot;
-              </span>
-            }
-            name="Wade Norris"
-            title="Co-founder & CEO at SnapCalorie (YC S21)"
-            logo="https://www.snapcalorie.com/images/sc_banner.png"
-            company="SnapCalorie"
-            link="https://roboflow.com/case-study/snapcalorie"
             borderRight
           />
           <CustomerTestimonialSecondary

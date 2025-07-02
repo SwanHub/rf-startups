@@ -47,7 +47,7 @@ export function Section_ExclusiveOffer() {
   return (
     <section
       id="offer"
-      className="w-full py-16 px-2 md:px-0 flex flex-col justify-center items-center bg-transparent"
+      className="w-full pb-16 px-2 md:px-0 flex flex-col justify-center items-center bg-transparent"
     >
       <div className="flex flex-col items-center justify-center px-8 py-12">
         <div
