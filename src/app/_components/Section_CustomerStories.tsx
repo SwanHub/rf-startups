@@ -96,7 +96,7 @@ export function Section_CustomerStories() {
           quote={
             <span>
               &quot;Do we need a new model to evaluate this kind of food? We
-              spin up the platform, train overnight, and{" "}
+              spin up [Roboflow], train overnight, and{" "}
               <span className="font-semibold text-violet-700">
                 the next morning it works.&quot;
               </span>
