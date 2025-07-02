@@ -4,12 +4,8 @@ export function Section_Love() {
   return (
     <section className="pt-24 pb-48 w-full flex justify-center items-center">
       <div className="text-center">
-        <span className="text-3xl font-semibold text-gray-700">
-          See the{" "}
-          <span role="img" aria-label="love" className="align-middle text-3xl">
-            💜
-          </span>{" "}
-          at{" "}
+        <span className="text-lg font-medium text-gray-700">
+          See the 💜 at{" "}
           <Link
             href="https://love.roboflow.com"
             target="_blank"

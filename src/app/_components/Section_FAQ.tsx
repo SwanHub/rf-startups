@@ -75,7 +75,7 @@ function ListItem_FAQ({
         } overflow-hidden`}
         aria-hidden={!open}
       >
-        <div className="text-gray-600 text-base md:text-lg leading-relaxed pl-2 pr-8 pb-6">
+        <div className="text-gray-600 text-base leading-relaxed pl-2 pr-8 pb-6">
           {answer}
         </div>
       </div>
