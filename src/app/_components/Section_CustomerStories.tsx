@@ -78,7 +78,6 @@ function CustomerTestimonialSecondary({
         <div className="flex items-center gap-2 justify-between w-full">
           <span className="flex items-center gap-4">
             <img src={logo} alt={`${company} logo`} className="h-5" />
-            {/* <span className="text-gray-700 font-medium text-sm">{company}</span> */}
           </span>
           <span className="ml-auto text-violet-600 hover:text-violet-800 p-2 rounded-full transition-colors">
             <ArrowRight className="w-5 h-5" />
@@ -147,7 +146,6 @@ export function Section_CustomerStories() {
             link="https://roboflow.com/case-studies/wellth"
             borderBottom
           />
-          {/* Wellth (SnapCalorie) testimonial (secondary, right, now third) */}
           <CustomerTestimonialSecondary
             quote={
               <span>
