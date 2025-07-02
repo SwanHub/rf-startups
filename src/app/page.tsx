@@ -1,3 +1,4 @@
+import { Section_BecomeAPartner } from "./_components/Section_BecomeAPartner";
 import { Section_BuildWithTheBest } from "./_components/Section_BuildWithTheBest";
 import { Section_CustomerStories } from "./_components/Section_CustomerStories";
 import { Section_Hero } from "./_components/Section_Hero";
@@ -19,6 +20,7 @@ export default function Page() {
         <Section_OpenSourceRoots />
         <Section_BuildWithTheBest />
         <Section_Love />
+        <Section_BecomeAPartner />
       </div>
     </div>
   );

@@ -73,7 +73,7 @@ const Buttons_Navigation = () => {
             : "text-gray-700 hover:bg-fuchsia-50 hover:text-violet-800"
         }`}
       >
-        Accelerator Program Partners
+        Google Cloud Startup Perks
       </Link>
       <Link
         href="https://roboflow.com?ref=startups"
