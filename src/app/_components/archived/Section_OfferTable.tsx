@@ -1,4 +1,4 @@
-import { Table_Offer } from "./Table_Offer";
+import { Table_Offer } from "../Table_Offer";
 import Link from "next/link";
 
 export const Section_OfferTable = () => {
