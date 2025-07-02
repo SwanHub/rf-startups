@@ -7,27 +7,38 @@ const faqs = [
   {
     question: "Who is eligible for Roboflow for Startups?",
     answer:
-      "Roboflow for Startups is available to early-stage companies that have raised less than $5M in funding and are new Roboflow customers.",
+      "Roboflow for Startups is available to early-stage companies that are part of one of our partner accelerator programs. Eligible startups must have raised less than $5M in funding and be new Roboflow customers.",
   },
   {
-    question: "How does it work?",
+    question: "Who are your partner accelerators?",
     answer:
-      "Apply through our website or via a partner accelerator. Once approved, you'll receive a year of free access to the Roboflow Growth plan, plus additional partner benefits.",
+      "We offer credits to startups in a number of organizations, including Google Cloud Startups: Scale, Y Combinator, Sequoia Arc, and more. If you're not sure, reach out to your accelerator or contact us startups@roboflow.com.",
   },
   {
-    question: "Will the offer expire?",
+    question: "What is included in the offer for startups?",
     answer:
-      "The free year of Growth plan is valid for one year from activation. After that, you can continue on a paid plan at a discounted rate.",
+      "Our offer may vary depending on the accelerator so be sure to read the details of the offer, which your program manager can provide.",
   },
   {
     question: "I'm already a Roboflow customer. Is my startup eligible?",
     answer:
-      "This offer is for new Roboflow customers only. Existing customers who have already been on a paid plan are not eligible.",
+      "If you are already on a paid plan, no. This offer is for new Roboflow customers. If you're on our free public plan, you are eligible for credits.",
+  },
+  {
+    question:
+      "Can I apply for credits if I'm not part of a partner accelerator?",
+    answer:
+      "No, this offer is only available to startups in partner accelerators.",
+  },
+  {
+    question: "Must I be in a current cohort to be eligible for credits?",
+    answer:
+      "Alumni can redeem the offer. As long as you are a new Roboflow customer with less than $5 million in funding, you are eligible for credits. You can be part of a current cohort or a past cohort.",
   },
   {
     question: "How do I become a Roboflow for Startups partner?",
     answer:
-      "Roboflow partners with VCs, accelerators, and startup programs to share offers. If you'd like to add Roboflow to your deal book or offer, contact startups@roboflow.com.",
+      "Roboflow partners with VCs, accelerators, and startup programs. If you'd like to add Roboflow to your deal book or program perks, contact startups@roboflow.com.",
   },
 ];
 

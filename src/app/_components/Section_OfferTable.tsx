@@ -14,7 +14,7 @@ export const Section_OfferTable = () => {
               Free year on our Growth Plan
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              {"We're offering a full year free for qualified startups."}
+              {"We're offering a full year free for eligible startups."}
             </p>
           </div>
 
