@@ -6,8 +6,7 @@ function CustomerTestimonialMain() {
     <div className="py-16 px-6 md:px-24 flex flex-col items-center text-center border-b border-violet-100 hover:bg-violet-50">
       <blockquote className="text-2xl md:text-3xl text-gray-700 font-light leading-snug mb-10">
         <span>
-          &quot;Roboflow allowed our team to drive model development, without
-          needing to train or hire dedicated machine learning experts, and{" "}
+          &quot;Roboflow allowed our team to drive model development... and{" "}
           <span className="font-semibold text-violet-700">
             get computer vision into production faster.&quot;
           </span>
@@ -42,6 +41,7 @@ function CustomerTestimonialSecondary({
   company,
   link,
   borderRight = false,
+  borderBottom = false,
 }: {
   quote: React.ReactNode;
   name: string;
@@ -50,12 +50,16 @@ function CustomerTestimonialSecondary({
   company: string;
   link: string;
   borderRight?: boolean;
+  borderBottom?: boolean;
 }) {
   return (
-    <div
-      className={`p-8 flex flex-col justify-between hover:bg-violet-50 ${
+    <Link
+      href={link}
+      target="_blank"
+      className={`p-8 flex flex-col justify-between hover:bg-violet-50 transition-colors ${
         borderRight ? " border-r border-violet-100" : ""
-      }`}
+      } ${borderBottom ? " border-b border-violet-100" : ""}`}
+      rel="noopener noreferrer"
     >
       <blockquote className="text-lg text-gray-700 font-light leading-snug mb-6">
         {quote}
@@ -68,19 +72,15 @@ function CustomerTestimonialSecondary({
         </div>
         <div className="flex items-center gap-2 justify-between w-full">
           <span className="flex items-center gap-4">
-            <img src={logo} alt={`${company} logo`} className="h-6" />
-            <span className="text-gray-700 font-medium text-sm">{company}</span>
+            <img src={logo} alt={`${company} logo`} className="h-5" />
+            {/* <span className="text-gray-700 font-medium text-sm">{company}</span> */}
           </span>
-          <Link
-            href={link}
-            target="_blank"
-            className="ml-auto text-violet-600 hover:text-violet-800 p-2 rounded-full transition-colors"
-          >
+          <span className="ml-auto text-violet-600 hover:text-violet-800 p-2 rounded-full transition-colors">
             <ArrowRight className="w-5 h-5" />
-          </Link>
+          </span>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 
@@ -107,12 +107,13 @@ export function Section_CustomerStories() {
             logo="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/685ee5108e072dec6c6af044_logo-almond.svg"
             company="Almond"
             link="https://roboflow.com/case-studies/almond"
-            borderRight={true}
+            borderRight
+            borderBottom
           />
           <CustomerTestimonialSecondary
             quote={
               <span>
-                &quot;...we’ve increased the cadence in rolling out new features
+                &quot;...we've increased the cadence in rolling out new features
                 and tools for our clients. Do we need a new model to evaluate
                 this kind of food?{" "}
                 <span className="font-semibold text-violet-700">
@@ -126,6 +127,80 @@ export function Section_CustomerStories() {
             logo="https://cdn.prod.website-files.com/5f6bc60e665f54db361e52a9/6807e703a9eb098121255372_logo-floVision-solutions.png"
             company="FloVision Solutions"
             link="https://roboflow.com/case-studies/flovision"
+            borderBottom
+          />
+          <CustomerTestimonialSecondary
+            quote={
+              <span>
+                &quot;They move fast to incorporate state-of-the-art model
+                capabilities to keep our stack on the bleeding edge.{" "}
+                <span className="font-semibold text-violet-700">
+                  Their support even added my feature request in the same
+                  afternoon on a Saturday. Recommend.&quot;
+                </span>
+              </span>
+            }
+            name="Raunak Chowdhuri"
+            title="Co-founder/CTO at Reducto (YC W24)"
+            logo="https://cdn.reducto.ai/landing-page/logos/reducto-logo.svg"
+            company="Reducto"
+            link="https://reducto.ai/"
+            borderRight
+            borderBottom
+          />
+          <CustomerTestimonialSecondary
+            quote={
+              <span>
+                &quot;
+                <span className="font-semibold text-violet-700">
+                  Roboflow is like having the work of 5+ engineers added.
+                </span>{" "}
+                Our team is moving faster than we ever have.&quot;
+              </span>
+            }
+            name="Drew Gray"
+            title="ex-Cruise, Tesla Executive"
+            logo="https://media.licdn.com/dms/image/v2/C5603AQEZr4wwz3NT_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1601742101045?e=1756944000&v=beta&t=OOlxmJeq9PAqdHndmuQ6xITf-yOpasfoTbiMwEyInS8"
+            company=""
+            link="https://www.linkedin.com/in/drewjgray/"
+            borderBottom
+          />
+          <CustomerTestimonialSecondary
+            quote={
+              <span>
+                &quot;Roboflow’s data management tools{" "}
+                <span className="font-semibold text-violet-700">
+                  far surpassed any of the other tools
+                </span>{" "}
+                we evaluated in the computer vision space&quot;
+              </span>
+            }
+            name="Wade Norris"
+            title="Co-founder & CEO at SnapCalorie (YC S21)"
+            logo="https://www.snapcalorie.com/images/sc_banner.png"
+            company="SnapCalorie"
+            link="https://roboflow.com/case-study/snapcalorie"
+            borderRight
+          />
+          <CustomerTestimonialSecondary
+            quote={
+              <span>
+                &quot;When I migrated... I was able to export my existing
+                annotation set, get it imported into roboflow, and trained my
+                first model in an afternoon. Model results seem on par with
+                Vertex AI, but{" "}
+                <span className="font-semibold text-violet-700">
+                  training is 2x faster, way more cost effective, and a more
+                  robust toolchain
+                </span>{" "}
+                .&quot;
+              </span>
+            }
+            name="John Yoder"
+            title="Co-founder/CTO Constructable (YC S23)"
+            logo="https://constructable.ai/constructable-logo-dark.svg"
+            company="Constructable"
+            link="https://constructable.ai/"
           />
         </div>
       </div>
