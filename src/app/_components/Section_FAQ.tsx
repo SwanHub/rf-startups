@@ -74,7 +74,7 @@ function ListItem_FAQ({
 
 export function Section_FAQ() {
   return (
-    <section className="w-full py-24 px-4 md:px-16">
+    <section className="w-full py-24 px-4 md:px-16" id="faq">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-0">
         <div className="flex items-start justify-center md:justify-start mb-12 md:mb-0">
           <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 leading-tight">

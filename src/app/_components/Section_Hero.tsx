@@ -23,7 +23,7 @@ export const Section_Hero = () => {
               href="mailto:startups@roboflow.com"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
-              Contact our startups team
+              Contact our Startups Team
               <Mail className="ml-2 h-4 w-4" />
             </Button>
             <Button

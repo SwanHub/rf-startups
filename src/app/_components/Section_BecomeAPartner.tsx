@@ -1,5 +1,4 @@
 import { Button } from "@/components/shared/elements/Button";
-import { Handshake, Mail } from "lucide-react";
 
 export function Section_BecomeAPartner() {
   return (
@@ -19,8 +18,7 @@ export function Section_BecomeAPartner() {
           href="mailto:startups@roboflow.com"
           className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
         >
-          Contact the Startups Team
-          <Handshake className="ml-2 h-4 w-4" />
+          Contact our Startups Team
         </Button>
       </div>
     </section>
