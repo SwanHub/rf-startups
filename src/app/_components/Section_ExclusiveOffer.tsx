@@ -70,7 +70,7 @@ export function Section_ExclusiveOffer() {
         </p>
         <Badge
           variant="secondary"
-          className="mb-6 bg-violet-50 text-violet-700 border-violet-200 uppercase"
+          className="mb-2 bg-violet-50 text-violet-700 border-violet-200 uppercase"
         >
           How to redeem
         </Badge>
@@ -141,8 +141,8 @@ const RedemptionSteps = () => {
           </span>
         </div>
         <div className="text-gray-600 text-sm">
-          Email your program manager or visit your program's perks & discounts
-          list.
+          Email your program manager or visit your program&apos;s perks &
+          discounts list.
         </div>
       </div>
       <div className="bg-white border border-violet-100 rounded-xl p-6 flex flex-col items-start">

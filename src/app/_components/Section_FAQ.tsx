@@ -41,7 +41,7 @@ const faqs = [
         >
           Sequoia Arc
         </Link>
-        , and more. We don't publicly disclose the full list, so be sure to
+        , and more. We don&apos;t publicly disclose the full list, so be sure to
         reach out to your program manager or contact us startups@roboflow.com.
       </span>
     ),
@@ -62,9 +62,9 @@ const faqs = [
     answer: (
       <span>
         No, this offer is only available to startups in partner startup
-        programs. Consider reaching out to us at startups@roboflow.com if you're
-        interested in partnering. We do offer free credits for students,
-        researchers and academics through our{" "}
+        programs. Consider reaching out to us at startups@roboflow.com if
+        you&apos;re interested in partnering. We do offer free credits for
+        students, researchers and academics through our{" "}
         <Link
           href="https://research.roboflow.com/credits"
           target="_blank"
