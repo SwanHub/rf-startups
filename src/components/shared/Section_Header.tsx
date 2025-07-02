@@ -102,25 +102,15 @@ const Buttons_Navigation_Mobile = ({
     >
       <div className="flex flex-col w-full mb-6">
         <Link
-          href="/credits"
+          href="#offer"
           className={`w-full py-5 px-6 mt-1 text-left bg-white border-b border-gray-200 ${
-            pathname === "/credits"
-              ? "text-violet-800 bg-fuchsia-50"
-              : "text-gray-600"
-          }`}
-        >
-          <span className="text-lg font-semibold">Apply for Credits</span>
-        </Link>
-        <Link
-          href="/citations"
-          className={`w-full py-5 px-6 text-left bg-white border-b border-gray-200 ${
-            pathname === "/citations"
+            pathname === "#offer"
               ? "text-violet-800 bg-fuchsia-50"
               : "text-gray-600"
           }`}
         >
           <span className="text-lg font-semibold">
-            Publications Citing Roboflow
+            1 Free Year on Growth Plan
           </span>
         </Link>
         <Link
