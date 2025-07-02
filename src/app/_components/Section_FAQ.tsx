@@ -1,7 +1,8 @@
 "use client";
 
 import { Plus } from "lucide-react";
-import { useState } from "react";
+import Link from "next/link";
+import { useState, ReactNode } from "react";
 
 const faqs = [
   {
@@ -11,8 +12,39 @@ const faqs = [
   },
   {
     question: "Who are your partner programs?",
-    answer:
-      "We partner with Google Cloud Startups: Scale, Y Combinator, Sequoia Arc, and more. We don't publicly disclose the full list, so be sure to reach out to your program manager or contact us startups@roboflow.com.",
+    answer: (
+      <span>
+        We partner with{" "}
+        <Link
+          href="https://cloud.google.com/startups/scale"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-600 hover:underline"
+        >
+          Google Cloud Startups: Scale
+        </Link>
+        {", "}
+        <Link
+          href="https://www.ycombinator.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-600 hover:underline"
+        >
+          Y Combinator
+        </Link>
+        {", "}
+        <Link
+          href="https://arc.sequoiacap.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-600 hover:underline"
+        >
+          Sequoia Arc
+        </Link>
+        , and more. We don't publicly disclose the full list, so be sure to
+        reach out to your program manager or contact us startups@roboflow.com.
+      </span>
+    ),
   },
   {
     question: "What is included in the offer for eligible startups?",
@@ -27,8 +59,23 @@ const faqs = [
   {
     question:
       "Can I apply for credits if I'm not part of a partner startup program?",
-    answer:
-      "No, this offer is only available to startups in partner startup programs. Consider reaching out to us at startups@roboflow.com if you're interested in partnering.",
+    answer: (
+      <span>
+        No, this offer is only available to startups in partner startup
+        programs. Consider reaching out to us at startups@roboflow.com if you're
+        interested in partnering. We do offer free credits for students,
+        researchers and academics through our{" "}
+        <Link
+          href="https://research.roboflow.com/credits"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-600 hover:underline"
+        >
+          Research Credits Program
+        </Link>
+        .
+      </span>
+    ),
   },
   {
     question: "Must I be in a current cohort to be eligible for credits?",
@@ -47,7 +94,7 @@ function ListItem_FAQ({
   answer,
 }: {
   question: string;
-  answer: string;
+  answer: ReactNode;
 }) {
   const [open, setOpen] = useState(false);
   return (
