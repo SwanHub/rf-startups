@@ -199,27 +199,40 @@ export function Section_CustomerStories() {
             link="https://www.linkedin.com/in/drewjgray/"
             borderRight
           />
-          <CustomerTestimonialSecondary
-            quote={
-              <span>
-                &quot;When I migrated... I was able to export my existing
-                annotation set, get it imported into roboflow, and trained my
-                first model in an afternoon. Model results seem on par with
-                Vertex AI, but{" "}
-                <span className="font-semibold text-violet-700">
-                  training is 2x faster, way more cost effective, and a more
-                  robust toolchain
-                </span>{" "}
-                .&quot;
-              </span>
-            }
-            name="John Yoder"
-            title="Co-founder/CTO Constructable (YC S23)"
-            logo="https://constructable.ai/constructable-logo-dark.svg"
-            company="Constructable"
-            link="https://constructable.ai/"
-          />
+          <div className="hidden md:block">
+            <CustomerTestimonialSecondary
+              quote={
+                <span>
+                  &quot;When I migrated... I was able to export my existing
+                  annotation set, get it imported into roboflow, and trained my
+                  first model in an afternoon. Model results seem on par with
+                  Vertex AI, but{" "}
+                  <span className="font-semibold text-violet-700">
+                    training is 2x faster, way more cost effective, and a more
+                    robust toolchain
+                  </span>{" "}
+                  .&quot;
+                </span>
+              }
+              name="John Yoder"
+              title="Co-founder/CTO Constructable (YC S23)"
+              logo="https://constructable.ai/constructable-logo-dark.svg"
+              company="Constructable"
+              link="https://constructable.ai/"
+            />
+          </div>
         </div>
+      </div>
+      <div className="w-full flex justify-center mt-8 text-sm ">
+        <p>See the 💜 at&nbsp;</p>
+        <Link
+          href="https://love.roboflow.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-700 hover:text-violet-900 underline underline-offset-4 decoration decoration-violet-300"
+        >
+          love.roboflow.com
+        </Link>
       </div>
     </section>
   );
