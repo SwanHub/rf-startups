@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ExternalLink } from "lucide-react";
-import { Table_Eligibility } from "./Table_Offer";
 
 export function Section_ProgramPartners() {
   const partners = [

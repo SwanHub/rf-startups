@@ -66,14 +66,14 @@ const Buttons_Navigation = () => {
   return (
     <div className="hidden lg:flex items-center gap-1 px-2">
       <Link
-        href="#partners"
+        href="#offer"
         className={`text-sm transition-all px-3 py-1.75 rounded-lg ${
-          pathname === "#partners"
+          pathname === "#offer"
             ? "text-violet-800 bg-fuchsia-50 "
             : "text-gray-700 hover:bg-fuchsia-50 hover:text-violet-800"
         }`}
       >
-        Google Cloud Startup Perks
+        1 Free Year on Growth Plan
       </Link>
       <Link
         href="https://roboflow.com?ref=startups"
