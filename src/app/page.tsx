@@ -1,6 +1,7 @@
 import { Section_BecomeAPartner } from "./_components/Section_BecomeAPartner";
 import { Section_BuildWithTheBest } from "./_components/Section_BuildWithTheBest";
 import { Section_CustomerStories } from "./_components/Section_CustomerStories";
+import { Section_FAQ } from "./_components/Section_FAQ";
 import { Section_Hero } from "./_components/Section_Hero";
 import { Section_Love } from "./_components/Section_Love";
 import { Section_OfferTable } from "./_components/Section_OfferTable";
@@ -15,11 +16,12 @@ export default function Page() {
         <Section_Hero />
         <Section_CustomerStories />
         <Section_OfferTable />
-        <Section_ProgramPartners />
-        <Section_WhyRoboflow />
-        <Section_OpenSourceRoots />
-        <Section_BuildWithTheBest />
-        <Section_Love />
+        {/* <Section_ProgramPartners /> */}
+        {/* <Section_WhyRoboflow /> */}
+        {/* <Section_OpenSourceRoots /> */}
+        {/* <Section_BuildWithTheBest /> */}
+        {/* <Section_Love /> */}
+        <Section_FAQ />
         <Section_BecomeAPartner />
       </div>
     </div>
