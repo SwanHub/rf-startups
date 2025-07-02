@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -6,9 +5,13 @@ function CustomerTestimonialMain() {
   return (
     <div className="py-16 px-6 md:px-24 flex flex-col items-center text-center border-b border-violet-100 hover:bg-violet-50">
       <blockquote className="text-2xl md:text-3xl text-gray-700 font-light leading-snug mb-10">
-        {
-          '"Roboflow allowed our team to drive model development, without needing to train or hire dedicated machine learning experts, and get computer vision into production faster."'
-        }
+        <span>
+          &quot;Roboflow allowed our team to drive model development, without
+          needing to train or hire dedicated machine learning experts, and{" "}
+          <span className="font-semibold text-violet-700">
+            get computer vision into production faster.&quot;
+          </span>
+        </span>
       </blockquote>
       <div className="flex flex-col items-center mb-6">
         <img
@@ -57,26 +60,25 @@ function CustomerTestimonialSecondary({
       <blockquote className="text-lg text-gray-700 font-light leading-snug mb-6">
         {quote}
       </blockquote>
-      <div className="flex items-center gap-3 mb-2">
-        <span className="font-medium text-gray-900">{name}</span>
-        <span className="text-gray-500 text-xs">{title}</span>
-      </div>
-      <div className="flex items-center gap-2">
-        <img
-          src={logo}
-          alt={`${company} logo`}
-          width={28}
-          height={28}
-          className="rounded"
-        />
-        <span className="text-gray-700 font-medium text-sm">{company}</span>
-        <Link
-          href={link}
-          target="_blank"
-          className="ml-auto text-violet-600 hover:text-violet-800 p-2 rounded-full transition-colors"
-        >
-          <ArrowRight className="w-5 h-5" />
-        </Link>
+      <div className="flex flex-col items-start justify-start gap-2">
+        <div className="flex items-center gap-3 mb-2">
+          <span className="text-gray-500 text-sm">
+            {name}, {title}
+          </span>
+        </div>
+        <div className="flex items-center gap-2 justify-between w-full">
+          <span className="flex items-center gap-4">
+            <img src={logo} alt={`${company} logo`} className="h-6" />
+            <span className="text-gray-700 font-medium text-sm">{company}</span>
+          </span>
+          <Link
+            href={link}
+            target="_blank"
+            className="ml-auto text-violet-600 hover:text-violet-800 p-2 rounded-full transition-colors"
+          >
+            <ArrowRight className="w-5 h-5" />
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -91,9 +93,12 @@ export function Section_CustomerStories() {
           <CustomerTestimonialSecondary
             quote={
               <span>
-                &quot;Roboflow has simplified the process of developing{" "}
+                With their AI-assisted labeling tools, hosted training, model
+                evaluation metrics, and – most importantly – highly accurate
+                models like RF-DETR,{" "}
                 <span className="font-semibold text-violet-700">
-                  state-of-the-art computer vision...&quot;
+                  Roboflow has simplified the process of state-of-the-art
+                  computer vision for our team.&quot;
                 </span>
               </span>
             }

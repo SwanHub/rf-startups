@@ -49,7 +49,7 @@ const PageTitle = () => {
         variant="secondary"
         className="mb-6 bg-violet-50 text-violet-700 border-violet-200 uppercase"
       >
-        Free credits
+        From Seed to scale
       </Badge>
       <h1
         className={`text-4xl
@@ -59,7 +59,7 @@ const PageTitle = () => {
       </h1>
       <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto text-xl">
         {
-          "Join thousands of startups using computer vision with Roboflow. Comprehensive dataset management, annotation, model training and deployment in a simple interface that just works."
+          "Join thousands of startups using computer vision with Roboflow. Train and deploy state-of-the-art models in a simple interface that just works."
         }
       </p>
     </span>
