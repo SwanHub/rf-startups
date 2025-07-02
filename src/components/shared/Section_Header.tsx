@@ -80,7 +80,7 @@ const Buttons_Navigation = () => {
         className="text-gray-700 text-sm hover:bg-fuchsia-50 transition-all
       px-3 py-1.75 rounded-lg border border-transparent hover:text-violet-800"
       >
-        Back to main site
+        Back home
       </Link>
     </div>
   );

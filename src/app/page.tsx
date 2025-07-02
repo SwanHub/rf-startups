@@ -15,14 +15,14 @@ export default function Page() {
       <div className="relative z-10">
         <Section_Hero />
         <Section_CustomerStories />
-        {/* <Section_OfferTable /> */}
+        <Section_OfferTable />
         {/* <Section_ProgramPartners /> */}
         {/* <Section_WhyRoboflow /> */}
         {/* <Section_OpenSourceRoots /> */}
         {/* <Section_BuildWithTheBest /> */}
-        {/* <Section_Love /> */}
         <Section_FAQ />
         <Section_BecomeAPartner />
+        <Section_Love />
       </div>
     </div>
   );
