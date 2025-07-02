@@ -223,16 +223,17 @@ export function Section_CustomerStories() {
           </div>
         </div>
       </div>
-      <div className="w-full flex justify-center mt-8 text-sm ">
-        <p>See the 💜 at&nbsp;</p>
+      <div className="w-full flex justify-center py-12 text-sm">
+        <p>See more 💜 on our&nbsp;</p>
         <Link
           href="https://love.roboflow.com"
           target="_blank"
           rel="noopener noreferrer"
           className="text-violet-700 hover:text-violet-900 underline underline-offset-4 decoration decoration-violet-300"
         >
-          love.roboflow.com
+          Wall of Love
         </Link>
+        .
       </div>
     </section>
   );

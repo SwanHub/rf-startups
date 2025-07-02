@@ -9,6 +9,7 @@ import {
   Layers,
 } from "lucide-react";
 import { LottieAnimation } from "./LottieAnimation";
+import { Badge } from "@/components/shared/elements/Badge";
 
 export function Section_ExclusiveOffer() {
   const offers = [
@@ -62,40 +63,99 @@ export function Section_ExclusiveOffer() {
           <span className="text-gray-500">Exclusive Offer:</span> 1 Free Year on
           Growth Plan
         </h2>
-        <p className="text-gray-600 mb-8 text-center leading-relaxed max-w-3xl mx-auto text-xl">
+        <p className="text-gray-600 mb-12 text-center leading-relaxed max-w-3xl mx-auto text-xl">
           {
-            "We're offering access to our Growth Plan for free for 12 months to eligible startups in our partner accelerator, VC, and startup programs. Our offer includes:"
+            "We're offering access to our Growth Plan for free for 12 months to eligible startups in our partner accelerator, VC, and startup programs."
           }
         </p>
+        <Badge
+          variant="secondary"
+          className="mb-6 bg-violet-50 text-violet-700 border-violet-200 uppercase"
+        >
+          How to redeem
+        </Badge>
+        <RedemptionSteps />
+        <div className="max-w-screen-sm mx-auto text-gray-600 text-sm text-center p-6 bg-gray-50 rounded-xl">
+          If your program is not yet a participating partner, connect us with
+          your program manager:{" "}
+          <a
+            href="mailto:startups@roboflow.com"
+            className="text-violet-700 hover:underline font-medium"
+          >
+            startups@roboflow.com
+          </a>
+          !
+        </div>
       </div>
-      <div
-        className="max-w-screen-lg w-full bg-white rounded-2xl border border-gray-200
-        grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 divide-y md:divide-y-0
-        divide-gray-200 overflow-hidden"
-      >
-        {offers.map((offer, idx) => {
-          const Icon = offer.icon;
-          return (
-            <div
-              key={idx}
-              className={`flex flex-col items-start justify-start px-8 py-12`}
-            >
-              <p className="text-gray-600 text-sm leading-relaxed">
-                <Icon className="w-4 h-4 mb-4 text-violet-700" />
-                <span className="font-bold text-gray-900">
-                  {offer.title}
-                </span>{" "}
-                {offer.text}
-              </p>
-            </div>
-          );
-        })}
+      <div className="max-w-screen-lg w-full">
+        <h3 className="text-2xl font-semibold text-violet-700 text-center mb-6">
+          Our offer includes:
+        </h3>
+        <div
+          className="w-full bg-white rounded-2xl border border-gray-200
+          grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 divide-y md:divide-y-0
+          divide-gray-200 overflow-hidden"
+        >
+          {offers.map((offer, idx) => {
+            const Icon = offer.icon;
+            return (
+              <div
+                key={idx}
+                className={`flex flex-col items-start justify-start px-8 py-12`}
+              >
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  <Icon className="w-4 h-4 mb-4 text-violet-700" />
+                  <span className="font-bold text-gray-900">
+                    {offer.title}
+                  </span>{" "}
+                  {offer.text}
+                </p>
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <p className="text-gray-600 py-24 text-center leading-relaxed max-w-3xl mx-auto text-xl border-b border-gray-200">
-        {
-          "To redeem the offer, follow the instructions shared by your program manager or outlined in your program's dealbook."
-        }
-      </p>
     </section>
   );
 }
+
+const RedemptionSteps = () => {
+  return (
+    <div className="max-w-screen-lg mx-auto py-12 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4 md:px-0">
+      <div className="bg-white border border-violet-100 rounded-xl p-6 flex flex-col items-start">
+        <div className="flex items-center mb-2">
+          <span className="font-bold text-violet-700 text-sm mr-2">1.</span>
+          <span className="font-semibold text-gray-900 text-sm">
+            Check Eligibility
+          </span>
+        </div>
+        <div className="text-gray-600 text-sm">
+          Startups in select accelerators, VC funds, and programs are eligible.
+        </div>
+      </div>
+      <div className="bg-white border border-violet-100 rounded-xl p-6 flex flex-col items-start">
+        <div className="flex items-center mb-2">
+          <span className="font-bold text-violet-700 text-sm mr-2">2.</span>
+          <span className="font-semibold text-gray-900 text-sm">
+            Visit perks page
+          </span>
+        </div>
+        <div className="text-gray-600 text-sm">
+          Email your program manager or visit your program's perks & discounts
+          list.
+        </div>
+      </div>
+      <div className="bg-white border border-violet-100 rounded-xl p-6 flex flex-col items-start">
+        <div className="flex items-center mb-2">
+          <span className="font-bold text-violet-700 text-sm mr-2">3.</span>
+          <span className="font-semibold text-gray-900 text-sm">
+            Redeem Offer
+          </span>
+        </div>
+        <div className="text-gray-600 text-sm">
+          Follow the instructions to redeem your free year of Growth Plan.
+        </div>
+      </div>
+    </div>
+  );
+};
