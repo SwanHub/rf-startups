@@ -17,7 +17,12 @@ function CustomerTestimonialMain({
   link: string;
 }) {
   return (
-    <div className="py-16 px-6 md:px-24 flex flex-col items-center text-center border-b border-violet-100 hover:bg-violet-50">
+    <Link
+      href={link}
+      target="_blank"
+      className="py-16 px-6 md:px-24 flex flex-col items-center text-center border-b border-violet-100 hover:bg-violet-50 transition-colors"
+      rel="noopener noreferrer"
+    >
       <blockquote className="text-2xl md:text-3xl text-gray-700 font-light leading-snug mb-10">
         {quote}
       </blockquote>
@@ -27,14 +32,10 @@ function CustomerTestimonialMain({
           {name}, {title}
         </span>
       </div>
-      <Link
-        href={link}
-        target="_blank"
-        className="inline-block mt-2 px-6 py-2 rounded-full border border-violet-200 text-violet-700 bg-white hover:bg-violet-50 font-medium transition-colors"
-      >
+      <span className="inline-block mt-2 px-6 py-2 rounded-full border border-violet-200 text-violet-700 bg-white hover:bg-violet-50 font-medium transition-colors">
         Read the full story
-      </Link>
-    </div>
+      </span>
+    </Link>
   );
 }
 
