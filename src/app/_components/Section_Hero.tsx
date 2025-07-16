@@ -55,7 +55,7 @@ const PageTitle = () => {
         className={`text-4xl
           md:text-5xl font-semibold text-gray-900 mb-6 leading-tight`}
       >
-        Roboflow is built <span className="text-violet-600">for Startups</span>
+        Roboflow <span className="text-violet-600">for Startups</span>
       </h1>
       <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto text-xl">
         {
