@@ -92,6 +92,11 @@ function CustomerTestimonialSecondary({
 export function Section_CustomerStories() {
   return (
     <section className="w-full px-4">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-semibold text-violet-700 mb-4">
+          Hear from teams building with Roboflow
+        </h2>
+      </div>
       <div className="max-w-6xl mx-auto border border-violet-100">
         <CustomerTestimonialMain
           quote={
