@@ -24,7 +24,7 @@ export function Section_RfFeatures() {
     },
     {
       icon: GitBranch,
-      title: "Rooted in open-source.",
+      title: "Open-source roots.",
       description:
         "Roboflow is built on industry standard libraries like Supervision and Inference. We also host the largest collection of open-source computer vision datasets and APIs at Roboflow Universe.",
     },
