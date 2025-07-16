@@ -20,19 +20,19 @@ export function Section_StartupResources() {
       icon: SplinePointer,
       title: "Low-code, AI Workflow Builder.",
       description:
-        "With our visual Workflows builder, your team can build and deploy a computer vision pipeline in minutes.",
+        "With our visual Workflows builder, your team can build and deploy a full computer vision pipeline in minutes.",
     },
     {
       icon: GitBranch,
       title: "Rooted in open-source.",
       description:
-        "Roboflow is built on industry standard libraries like Supervision and we host the largest collection of open-source computer vision datasets and APIs at Roboflow Universe.",
+        "Roboflow is built on industry standard libraries like Supervision and Inference. We also host the largest collection of open-source computer vision datasets and APIs at Roboflow Universe.",
     },
     {
       icon: MousePointer,
       title: "One-click model training.",
       description:
-        "Fine-tune SOTA models on managed cloud GPUs, or bring your own weights.",
+        "Fine-tune SOTA models on managed cloud GPUs, or bring your own weights. Continually improve and identify weaknesses with model evaluation.",
     },
     {
       icon: Cpu,
