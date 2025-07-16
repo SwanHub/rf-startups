@@ -64,9 +64,13 @@ export function Section_ExclusiveOffer() {
           Growth Plan
         </h2>
         <p className="text-gray-600 mb-12 text-center leading-relaxed max-w-3xl mx-auto text-xl">
-          {
-            "We're offering access to our Growth Plan for free for 12 months to eligible startups in our partner accelerator, VC, and startup programs."
-          }
+          We&apos;re offering access to our Growth Plan for free for 12 months
+          to{" "}
+          <span className="relative group font-bold text-violet-700">
+            eligible startups in our partner accelerator, VC, and startup
+            programs
+          </span>
+          .
         </p>
         <Badge
           variant="secondary"

@@ -42,7 +42,16 @@ const faqs = [
           Sequoia Arc
         </Link>
         , and more. We don&apos;t publicly disclose the full list, so be sure to
-        reach out to your program manager or contact us startups@roboflow.com.
+        reach out to your program manager or contact us{" "}
+        <Link
+          href="mailto:startups@roboflow.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-violet-600 hover:underline"
+        >
+          startups@roboflow.com
+        </Link>
+        .
       </span>
     ),
   },

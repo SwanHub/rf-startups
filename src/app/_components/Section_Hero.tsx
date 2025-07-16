@@ -23,7 +23,7 @@ export const Section_Hero = () => {
               href="#offer"
               className="border-violet-200 text-violet-700 hover:bg-violet-50 text-sm"
             >
-              Redeem: Free Year on Growth Plan
+              Accelerator Partner Program
               <BadgeDollarSign className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -55,7 +55,7 @@ const PageTitle = () => {
         className={`text-4xl
           md:text-5xl font-semibold text-gray-900 mb-6 leading-tight`}
       >
-        Roboflow <span className="text-violet-600">for Startups</span>
+        Roboflow is built <span className="text-violet-600">for Startups</span>
       </h1>
       <p className="text-gray-600 mb-8 leading-relaxed max-w-3xl mx-auto text-xl">
         {

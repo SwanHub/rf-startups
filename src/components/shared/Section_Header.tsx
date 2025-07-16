@@ -73,7 +73,7 @@ const Buttons_Navigation = () => {
             : "text-gray-700 hover:bg-fuchsia-50 hover:text-violet-800"
         }`}
       >
-        1 Free Year on Growth Plan
+        Accelerator Partner Program
       </Link>
       <Link
         href="https://roboflow.com?ref=startups"
