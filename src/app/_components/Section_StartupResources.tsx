@@ -1,79 +1,74 @@
 "use client";
 
 import {
-  Zap,
-  Users,
-  Shield,
   TrendingUp,
-  Settings,
-  Sparkles,
+  SplinePointer,
+  GitBranch,
+  MousePointer,
+  Cpu,
 } from "lucide-react";
 
 export function Section_StartupResources() {
   const features = [
     {
-      icon: Settings,
-      title: "Zero-Configuration Development",
-      description:
-        "Focus on building your product, not configuring infrastructure. Get started instantly and iterate faster.",
-    },
-    {
-      icon: Sparkles,
-      title: "AI-powered Development",
-      description:
-        "With v0, your team can go from idea to prototype in minutes. Easily create beautiful interfaces and full stack applications that you can share, iterate on, and scale in real time.",
-    },
-    {
-      icon: Users,
-      title: "Team Collaboration",
-      description:
-        "Collaborate in real-time, iterate quickly, and validate ideas with comments directly on site previews before production push.",
-    },
-    {
-      icon: Shield,
-      title: "Out of the Box Security",
-      description:
-        "Protect your startup's assets and user data from day one. Build trust with customers and investors by prioritizing security from the start.",
-    },
-    {
       icon: TrendingUp,
-      title: "Scale Without Limits",
+      title: "Battle-tested infrastructure.",
       description:
-        "Grow from MVP to unicorn without infrastructure headaches. Your app scales automatically, letting you focus on your business goals— not your infra.",
+        "Used by 1 million engineers and 2/3 of the Fortune 100. Grow from MVP to unicorn without infrastructure headaches.",
+    },
+    {
+      icon: SplinePointer,
+      title: "Low-code, AI Workflow Builder.",
+      description:
+        "With our visual Workflows builder, your team can build and deploy a computer vision pipeline in minutes.",
+    },
+    {
+      icon: GitBranch,
+      title: "Rooted in open-source.",
+      description:
+        "Roboflow is built on industry standard libraries like Supervision and we host the largest collection of open-source computer vision datasets and APIs at Roboflow Universe.",
+    },
+    {
+      icon: MousePointer,
+      title: "One-click model training.",
+      description:
+        "Fine-tune SOTA models on managed cloud GPUs, or bring your own weights.",
+    },
+    {
+      icon: Cpu,
+      title: "Flexible Deployment.",
+      description:
+        "Deploy models using our hosted Serverless GPU API, Dedicated Deployments, on-device (Jetson, OAK, Raspberry Pi), in-browser, or natively on iOS.",
     },
   ];
 
   return (
     <section className="w-full py-16 px-4">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-2">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-              <div className="lg:col-span-1 flex items-center">
-                <h2 className="text-xl lg:text-2xl font-bold text-gray-900 leading-tight">
-                  End-to-end computer vision built for developers
-                </h2>
-              </div>
-              {features.map((feature, index) => {
-                const Icon = feature.icon;
-                return (
-                  <div key={index} className="flex flex-col space-y-4 p-6">
-                    <div className="flex items-center space-x-3">
-                      <div className="flex-shrink-0">
-                        <Icon className="w-6 h-6 text-violet-600" />
-                      </div>
-                      <h3 className="text-lg font-bold text-gray-900">
-                        {feature.title}
-                      </h3>
-                    </div>
-                    <p className="text-gray-600 text-sm leading-relaxed">
-                      {feature.description}
-                    </p>
-                  </div>
-                );
-              })}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="text-center mb-12 p-6 h-full">
+            <div className="flex items-center gap-3 mb-4">
+              <h2 className="text-violet-600 text-3xl font-semibold leading-tight text-left">
+                End-to-End
+                <br />
+                Computer Vision Platform
+              </h2>
             </div>
           </div>
+          {features.map((feature, index) => {
+            const Icon = feature.icon;
+            return (
+              <div key={index} className="p-6">
+                <p className="text-gray-600 text-base leading-relaxed">
+                  <Icon className="w-4 h-4 text-violet-600 inline mr-2 mb-1" />
+                  <span className="font-semibold text-violet-600">
+                    {feature.title}
+                  </span>{" "}
+                  {feature.description}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
