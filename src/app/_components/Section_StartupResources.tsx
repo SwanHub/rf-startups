@@ -20,7 +20,7 @@ export function Section_StartupResources() {
       icon: SplinePointer,
       title: "Low-code, AI Workflow Builder.",
       description:
-        "With our visual Workflows builder, your team can build and deploy a full computer vision pipeline in minutes.",
+        "With our visual Workflow builder, your team can build and deploy a full computer vision pipeline in minutes.",
     },
     {
       icon: GitBranch,
