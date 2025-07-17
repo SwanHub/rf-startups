@@ -26,7 +26,7 @@ export function Section_StartupResources() {
     {
       category: "YouTube",
       description: "Watch tutorials and webinars from Roboflow experts.",
-      link: "https://youtube.com/@roboflow",
+      link: "https://roboflow.com/youtube",
     },
   ];
 
