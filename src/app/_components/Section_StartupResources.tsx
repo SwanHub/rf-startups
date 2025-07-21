@@ -39,24 +39,24 @@ export function Section_StartupResources() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {resources.map((resource, index) => (
-            <div key={index} className="flex flex-col space-y-4 p-6">
-              <div className="text-sm text-gray-400 uppercase tracking-wide font-medium">
-                {resource.category}
-              </div>
-              <div className="text-lg font-bold text-gray-900 leading-tight pb-4 md:pb-8">
-                {resource.description}
-              </div>
-              <div className="mt-auto">
-                <Link
-                  href={resource.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-10 h-10 border border-violet-200 rounded-full bg-white hover:bg-violet-50 transition-colors"
-                >
+            <Link
+              href={resource.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={index}
+            >
+              <div key={index} className="flex flex-col space-y-4 p-6">
+                <div className="text-sm text-gray-400 uppercase tracking-wide font-medium">
+                  {resource.category}
+                </div>
+                <div className="text-lg font-bold text-gray-900 hover:text-gray-600 leading-tight pb-4 md:pb-8">
+                  {resource.description}
+                </div>
+                <div className="mt-auto inline-flex items-center justify-center w-10 h-10 border border-violet-200 rounded-full bg-white hover:bg-violet-50 transition-colors">
                   <ArrowRight className="w-4 h-4 text-violet-600" />
-                </Link>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
