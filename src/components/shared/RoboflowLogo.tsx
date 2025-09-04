@@ -4,9 +4,11 @@ import Link from "next/link";
 export const RoboflowLogo = ({
   inverted = false,
   priority = true,
+  tag,
 }: {
   inverted?: boolean;
   priority?: boolean;
+  tag?: string;
 }) => {
   const logoSrc = inverted
     ? "/logos/roboflow-logo-white.png"
@@ -23,6 +25,11 @@ export const RoboflowLogo = ({
           priority={priority}
           fetchPriority={priority ? "high" : "auto"}
         />
+        {!!tag && (
+          <span className="absolute -top-3 -right-4 text-xs font-medium text-violet-600">
+            {tag}
+          </span>
+        )}
       </Link>
     </div>
   );

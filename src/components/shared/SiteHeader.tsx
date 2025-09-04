@@ -42,7 +42,7 @@ export default function SiteHeader() {
       <header className="fixed top-0 left-0 right-0 bg-white z-50 border-b border-gray-200 py-0.5">
         <div className="flex flex-row items-center justify-between w-full max-w-screen-xl mx-auto py-4 px-6 xl:px-4">
           <div className="flex flex-row items-center gap-4">
-            <RoboflowLogo />
+            <RoboflowLogo tag="startups" />
             <Buttons_Navigation />
           </div>
           <div className="flex items-center gap-4">
