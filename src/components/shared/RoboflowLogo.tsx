@@ -6,7 +6,7 @@ export const RoboflowLogo = ({
   priority = true,
 }: {
   inverted?: boolean;
-  priority: boolean;
+  priority?: boolean;
 }) => {
   const logoSrc = inverted
     ? "/logos/roboflow-logo-white.png"
