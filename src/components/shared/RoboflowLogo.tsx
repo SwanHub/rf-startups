@@ -1,28 +1,28 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export const RoboflowLogo = ({
   inverted = false,
-  showTag = true,
+  priority = true,
 }: {
   inverted?: boolean;
-  showTag?: boolean;
+  priority: boolean;
 }) => {
   const logoSrc = inverted
     ? "/logos/roboflow-logo-white.png"
     : "/logos/roboflow-logo.png";
   return (
     <div className="flex flex-row items-center relative">
-      <Link href={"/"} className="flex w-full relative z-10">
-        <img
+      <Link href={"https://roboflow.com"} className="flex w-full relative z-10">
+        <Image
           src={logoSrc}
+          alt="Roboflow Logo"
           className="object-contain"
-          style={{ width: 120, height: 22 }}
+          width={120}
+          height={22}
+          priority={priority}
+          fetchPriority={priority ? "high" : "auto"}
         />
-        {showTag && (
-          <span className="absolute -top-3 -right-4 text-xs font-medium text-violet-600">
-            startups
-          </span>
-        )}
       </Link>
     </div>
   );

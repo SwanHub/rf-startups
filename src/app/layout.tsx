@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Section_Header from "@/components/shared/Section_Header";
-import { Section_Footer } from "@/components/shared/Section_Footer";
 import Script from "next/script";
+import SiteHeader from "@/components/shared/SiteHeader";
+import { SiteFooter } from "@/components/shared/SiteFooter";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -106,9 +106,9 @@ export default function RootLayout({
         </Script>
       </head>
       <body className={`${inter.className} antialiased`}>
-        <Section_Header />
+        <SiteHeader />
         {children}
-        <Section_Footer />
+        <SiteFooter />
       </body>
     </html>
   );

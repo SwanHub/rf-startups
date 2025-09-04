@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { RoboflowLogo } from "./RoboflowLogo";
 import { Button_Generic } from "./buttons/Button_Generic";
 
-export default function Section_Header() {
+export default function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
 
