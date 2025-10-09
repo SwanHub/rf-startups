@@ -38,11 +38,11 @@ export default function TestPage() {
           <div className="border-t border-gray-200 pt-8">
             <div className="w-full">
               <iframe
-                src="https://templates-seg-preview.vercel.app/embed"
+                src="https://rf-model-embed.vercel.app/rf-detr"
                 width="100%"
                 height="600"
                 className="border border-gray-300 rounded-lg shadow-sm"
-                title="Segment Anything Demo"
+                title="RF-DETR Demo"
                 allowFullScreen
               />
             </div>
