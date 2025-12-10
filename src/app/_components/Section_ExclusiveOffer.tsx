@@ -20,7 +20,7 @@ export function Section_ExclusiveOffer() {
     },
     {
       icon: Zap,
-      title: "180 platform credits loaded up front",
+      title: "A full year of platform credits loaded up front",
       text: "for storage, dataset indexing, AI-assisted labeling, cloud-GPU training, inference API calls, and deployment.",
     },
     {
