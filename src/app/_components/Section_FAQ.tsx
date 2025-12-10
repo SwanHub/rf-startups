@@ -6,7 +6,7 @@ import { useState, ReactNode } from "react";
 
 const faqs = [
   {
-    question: "Who is eligible for 1 Free Year on Growth Plan?",
+    question: "Who is eligible for 1 Free Year on Core Plan?",
     answer:
       "The offer is available exclusively to startups that are part of one of our partner startup programs. Eligible startups must have raised less than $5 million in funding and be new Roboflow customers.",
   },
@@ -58,7 +58,7 @@ const faqs = [
   {
     question: "What is included in the offer for eligible startups?",
     answer:
-      "All features on our Annual Growth Plan are included, plus a few additional benefits like joint marketing and swag. Be sure to read the details of the offer, which your program manager can provide.",
+      "All features on our Annual Core Plan are included, plus a few additional benefits like joint marketing and swag. Be sure to read the details of the offer, which your program manager can provide.",
   },
   {
     question: "I'm already a Roboflow customer. Is my startup eligible?",

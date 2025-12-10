@@ -110,7 +110,7 @@ const Buttons_Navigation_Mobile = ({
           }`}
         >
           <span className="text-lg font-semibold">
-            1 Free Year on Growth Plan
+            1 Free Year on Core Plan
           </span>
         </Link>
         <Link

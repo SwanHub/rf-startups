@@ -77,14 +77,6 @@ export function Section_ProgramPartners() {
             <ListItem_ProgramPartner key={index} partner={partner} />
           ))}
         </div>
-        {/* <div className="text-center my-16">
-          <p className="text-gray-500 text-sm">
-            Your program not yet on the list? Contact growth@roboflow.com.
-          </p>
-        </div>
-        <div className="flex justify-center text-center">
-          <Table_Eligibility />
-        </div> */}
       </div>
     </section>
   );

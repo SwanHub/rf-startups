@@ -20,23 +20,23 @@ export function Section_ExclusiveOffer() {
     },
     {
       icon: Zap,
-      title: "1800 platform credits",
-      text: "loaded up front for storage, dataset indexing, AI-assisted labeling, cloud-GPU training, inference API calls, and deployment.",
+      title: "180 platform credits loaded up front",
+      text: "for storage, dataset indexing, AI-assisted labeling, cloud-GPU training, inference API calls, and deployment.",
     },
     {
       icon: Users,
-      title: "50 private projects & 20 team seats",
-      text: "with role-based access control.",
+      title: "20 private projects & 3 users seats",
+      text: "with concurrent training jobs.",
     },
     {
       icon: Download,
-      title: "Model weights export",
+      title: "Model weights download",
       text: "with a commercial Ultralytics license for 10 embedded devices.",
     },
     {
       icon: Headphones,
-      title: "Priority support",
-      text: "from Roboflow engineers (chat & email) and an onboarding call with a Roboflow computer vision expert.",
+      title: "Community support",
+      text: "from Roboflow team and computer vision engineers.",
     },
     {
       icon: Megaphone,
@@ -61,11 +61,10 @@ export function Section_ExclusiveOffer() {
         </div>
         <h2 className="text-3xl md:text-4xl font-semibold text-violet-700 text-left leading-tight mb-8">
           <span className="text-gray-500">Exclusive Offer:</span> 1 Free Year on
-          Growth Plan
+          Core Plan {"($948 value)"}
         </h2>
         <p className="text-gray-600 mb-12 text-center leading-relaxed max-w-3xl mx-auto text-xl">
-          We&apos;re offering access to our Growth Plan for free for 12 months
-          to{" "}
+          We&apos;re offering access to our Core Plan for free for 12 months to{" "}
           <span className="relative group font-bold text-violet-700">
             eligible startups in our partner accelerator, VC, and startup
             programs
@@ -157,7 +156,7 @@ const RedemptionSteps = () => {
           </span>
         </div>
         <div className="text-gray-600 text-sm">
-          Follow the instructions to redeem your free year of Growth Plan.
+          Follow the instructions to redeem your free year of Core Plan.
         </div>
       </div>
     </div>
